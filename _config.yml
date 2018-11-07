@@ -4,7 +4,7 @@ description: 'A soteropolitan lost in the world'
 url: 'http://tassiovirginio.com'
 baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+disqus_shortname: 'tassiovirginio'
 
 author:
   name: 'Tássio Virgínio'
@@ -13,6 +13,7 @@ author:
   # facebook_username: tassiovirginio
   github_username:  tassiovirginio
   linkedin_username:  tassiovirginio
+  lattes_id:  0517470966104640
 
 defaults:
   -

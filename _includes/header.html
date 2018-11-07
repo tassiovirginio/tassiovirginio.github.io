@@ -19,10 +19,20 @@
         <div class="navigation-wrapper">
 
           <nav class="cover-navigation cover-navigation--primary">
-            <ul class="navigation">
-              <li class="navigation__item"><a href="{{ site.baseurl }}/#blog" title="link to {{ site.title }} blog" class="blog-button">Blog</a></li>
-            </ul>
-          </nav>
+              <ul class="navigation">
+                <li class="navigation__item">
+                  <a href="{{ site.baseurl }}/#blog" title="link to {{ site.title }} blog" class="blog-button">Blog</a>
+                </li>
+              </ul>
+            </nav>
+
+            <!-- <nav class="cover-navigation cover-navigation--primary">
+                <ul class="navigation">
+                  <li class="navigation__item">
+                    <a href="{{ site.baseurl }}/#sinteses" title="link to {{ site.title }} sínteses" class="blog-button">Sínteses</a>
+                  </li>
+                </ul>
+              </nav> -->
 
           <nav class="cover-navigation navigation--social">
             <ul class="navigation">
@@ -76,6 +86,16 @@
                 </a>
               </li>
             {% endif %}
+
+            {% if site.author.lattes_id %}
+            <!-- Twitter -->
+            <li class="navigation__item">
+              <a href="http://lattes.cnpq.br/{{ site.author.lattes_id }}" title=" Currículo Lattes: @{{ site.author.lattes_id }}" target="_blank">
+                <i class="icon icon-page-doc"></i>
+                <span class="label">Currículo Lattes</span>
+              </a>
+            </li>
+          {% endif %}
 
             <!-- RSS -->
             <li class="navigation__item">
