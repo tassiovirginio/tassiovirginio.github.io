@@ -1,0 +1,91 @@
+---
+layout: post
+title: API Ruby Google Geo - Exemplo
+date: 2007-02-13 12:27:27.000000000 -03:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Ruby
+tags: []
+meta: {}
+author:
+  login: tassiovirginio
+  email: tassiovirginio@gmail.com
+  display_name: Tássio Virgínio
+  first_name: Tássio
+  last_name: Virgínio
+---
+<p>Lá estava eu navegando pela internet novamente, comecei a ficar cansado e fui direto na fonte dos pacotes disponiveis no ruby =&gt; <a href="http://rubyforge.vm.bytemark.co.uk/gems/">http://rubyforge.vm.bytemark.co.uk/gems/</a> , como sou curioso procurei “F3 do Firefox” por Google :P , achei uma api a <a href="http://dev.robotcoop.com/Libraries/google-geocode/">google-geocode</a> blz… vamos fazer novamente, fazer uma aplicação Ruby on Rails Simples !</p>
+<p>Ai vai o passo-a-passo novamente:</p>
+<p>1) Vamos instalar a api:</p>
+<p>gem install google-geocode</p>
+<p>2)Iniciamos um projeto:</p>
+<p>rails googlegeo</p>
+<p>3) Criamos Um Controller:</p>
+<ol class="dp-rb">
+<li class="alt"><span><span class="keyword">class</span><span> GooglegeoController &lt; ApplicationController  </span></span></li>
+<li><span>  require <span class="string">'google_geocode'</span><span>  </span></span></li>
+<li class="alt"><span>  </span></li>
+<li><span>  <span class="keyword">def</span><span> index  </span></span></li>
+<li class="alt"><span>  <span class="keyword">end</span><span>  </span></span></li>
+<li><span>  </span></li>
+<li class="alt"><span>  <span class="keyword">def</span><span> localizar  </span></span></li>
+<li><span>  gg = GoogleGeocode.<span class="keyword">new</span><span> </span><span class="string">'googlegeokey'</span><span>  </span></span></li>
+<li class="alt"><span>  <span class="variable">@location</span><span> = gg.locate params[</span><span class="symbol">:localizar</span><span>][</span><span class="string">"texto"</span><span>]  </span></span></li>
+<li><span>  <span class="keyword">end</span><span>  </span></span></li>
+<li class="alt"><span>  </span></li>
+<li><span><span class="keyword">end</span><span><br />
+</span></span></li>
+</ol>
+<p>4) Criamos os views <span class="caps">RHTML</span></p>
+<p><strong>index.rhtml</strong></p>
+<ol class="dp-rb">
+<li class="alt"><span><span>&lt;br&gt;&lt;br&gt;&lt;br&gt;  </span></span></li>
+<li><span>&lt;center&gt;  </span></li>
+<li class="alt"><span>  &lt;img src=<span class="string">'http://www.google.com/intl/en_ALL/images/maps_results_logo.gif'</span><span> /&gt;  </span></span></li>
+<li><span>&lt;br&gt;  </span></li>
+<li class="alt"><span>&lt;br&gt;  </span></li>
+<li><span>&lt;%= start_form_tag  <span class="symbol">:action</span><span> =&gt; </span><span class="string">'localizar'</span><span> %&gt;  </span></span></li>
+<li class="alt"><span>  &lt;%= text_field <span class="string">'localizar'</span><span>,</span><span class="string">'texto'</span><span> %&gt;  </span></span></li>
+<li><span>  &lt;%= submit_tag <span class="string">"Localizar"</span><span> %&gt;  </span></span></li>
+<li class="alt"><span>&lt;%= end_form_tag %&gt;  </span></li>
+<li><span>  </span></li>
+<li class="alt"><span>&lt;/center&gt;<br />
+</span></li>
+</ol>
+<p><strong>localizar.rhtml</strong></p>
+<ol class="dp-rb">
+<li class="alt"><span><span>&lt;!DOCTYPE html PUBLIC </span><span class="string">"-//W3C//DTD XHTML 1.0 Strict//EN"</span><span>   </span></span></li>
+<li><span>  <span class="string">"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"</span><span>&gt;  </span></span></li>
+<li class="alt"><span>&lt;html xmlns=<span class="string">'http://www.w3.org/1999/xhtml'</span><span>&gt;  </span></span></li>
+<li><span>  &lt;head&gt;  </span></li>
+<li class="alt"><span>    &lt;meta content=<span class="string">'text/html; charset=utf-8'</span><span> http-equiv=</span><span class="string">'content-type'</span><span> /&gt;  </span></span></li>
+<li><span>    &lt;title&gt;Google Maps JavaScript API Example&lt;/title&gt;  </span></li>
+<li class="alt"><span>    &lt;script type=<span class="string">'text/javascript'</span><span> src=</span><span class="string">'http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAUsSOSwRBTxT6VkJY202e_BSEynlGjQ3xtyJqxw_IWtz4VVMVRhT2QpAtmwIDLimfJ7HDOFV9aOYPyw'</span><span>&gt;&lt;/script&gt;  </span></span></li>
+<li><span>    &lt;script type=<span class="string">'text/javascript'</span><span>&gt;  </span></span></li>
+<li class="alt"><span>  </span></li>
+<li><span>    //&lt;![CDATA[  </span></li>
+<li class="alt"><span>  </span></li>
+<li><span>    function load() {  </span></li>
+<li class="alt"><span>      <span class="keyword">if</span><span> (GBrowserIsCompatible()) {  </span></span></li>
+<li><span>        var map = <span class="keyword">new</span><span> GMap2(document.getElementById(</span><span class="string">"map"</span><span>));  </span></span></li>
+<li class="alt"><span>        map.setCenter(<span class="keyword">new</span><span> GLatLng(&lt;%=</span><span class="variable">@location</span><span>.coordinates[0]%&gt;, &lt;%=</span><span class="variable">@location</span><span>.coordinates[1]%&gt;), 10);  </span></span></li>
+<li><span>      }  </span></li>
+<li class="alt"><span>    }  </span></li>
+<li><span>  </span></li>
+<li class="alt"><span>    //]]&gt;  </span></li>
+<li><span>    &lt;/script&gt;  </span></li>
+<li class="alt"><span>  &lt;/head&gt;  </span></li>
+<li><span>  &lt;img src=<span class="string">'http://www.google.com/intl/en_ALL/images/maps_results_logo.gif'</span><span> /&gt;  </span></span></li>
+<li class="alt"><span>  &lt;br&gt;  </span></li>
+<li><span>  &lt;body&gt;  </span></li>
+<li class="alt"><span>    &lt;div id=<span class="string">'map'</span><span> style=</span><span class="string">'width: 500px; height: 300px'</span><span>&gt;&lt;/div&gt;  </span></span></li>
+<li><span>  &lt;/body&gt;  </span></li>
+<li class="alt"><span>&lt;/html&gt;<br />
+</span></li>
+</ol>
+<p><span class="caps">OBS</span>: googlegeokey =&gt; tem que pegar no site do google   =&gt; <a href="http://www.google.com/maps/">http://www.google.com/maps/</a></p>
+<p>Esse sistema funciona da seguinte maneira, primeiro aparece uma pagina com uma caixa de texto e um botão, ali vc coloca o nome do pais, cidade ou estado… ai na pagina seguinte é mostrado o mapa do local. Não sei se ficou bem feito ! Se alguem puder melhorar o codigo fique avontade ! Até mais pessoal !</p>

@@ -1,0 +1,112 @@
+---
+layout: post
+title: 'Wicket + Scala: Primeiros passos...'
+date: 2010-08-30 02:07:46.000000000 -03:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Scala
+- Wicket Framework
+tags: []
+meta:
+  _edit_last: '799537'
+  _wp_old_slug: ''
+author:
+  login: tassiovirginio
+  email: tassiovirginio@gmail.com
+  display_name: Tássio Virgínio
+  first_name: Tássio
+  last_name: Virgínio
+---
+<p>Achei interessante colocar um poste mostrando como fazer para utilizar a linguagem Scala com o framework Wicket. Inicialmente vamos utilizar o Eclipse Galileo (<a href="http://www.eclipse.org/">www.eclipse.org</a>) com o plugin do Scala (<a href="http://www.scala-ide.org/">www.scala-ide.org/</a>). Com o plugin é possível fazer a integração no Eclipse de maneira transparente.</p>
+<p>Com o ambiente pronto, vamos criar um projeto Wicket com o Maven:</p>
+<p><strong>mvn archetype:create -DarchetypeGroupId=org.apache.wicket -DarchetypeArtifactId=wicket-archetype-quickstart -DarchetypeVersion=1.4.10 -DgroupId=br.tassiovirginio.wicketscala -DartifactId=wicketscala</strong></p>
+<p>Logo apos vamos transformar em um projeto Eclipse: <strong>mvn eclipse:eclipse</strong></p>
+<p>Importe o projeto no Eclipse, depois clique com o botão direito no projeto, o menu selecione "configure", depois Add Scala Nature. Agora vc já pode programar com Java e Scala no Projeto. :)</p>
+<p>A estrutura do projeto contém  os seguintes arquivos do wicket:</p>
+<div id="_mcePaste"><strong>HomePage.html</strong></div>
+<div id="_mcePaste"><strong>HomePage.java</strong></div>
+<div id="_mcePaste"><strong>WicketApplication.java</strong></div>
+<div>Primeiramente vamos substituir o arquivo WicketApplication.java por WicketApplicationScala.scala .</div>
+<div>Em java:</div>
+<div>
+<div style="padding-left:30px;"><span style="color:#0000ff;"><strong>package br.tassiovirginio.wicketscala;</strong></span></div>
+<div style="padding-left:30px;"><span style="color:#0000ff;"><strong><br />
+</strong></span></div>
+<div style="padding-left:30px;"><span style="color:#0000ff;"><strong>import org.apache.wicket.protocol.http.WebApplication;</strong></span></div>
+<div style="padding-left:30px;"><span style="color:#0000ff;"><strong><br />
+</strong></span></div>
+<div style="padding-left:30px;"><span style="color:#0000ff;"><strong>public class WicketApplication extends WebApplication</strong></span></div>
+<div style="padding-left:30px;"><span style="color:#0000ff;"><strong>{ </strong></span></div>
+<div style="padding-left:60px;"><span style="white-space:pre;"><span style="color:#0000ff;"><strong> </strong></span></span><span style="color:#0000ff;"><strong>public WicketApplication(){}</strong></span></div>
+<div style="padding-left:30px;"><span style="white-space:pre;"><span style="color:#0000ff;"><strong> </strong></span></span></div>
+<div style="padding-left:60px;"><span style="white-space:pre;"><span style="color:#0000ff;"><strong> </strong></span></span><span style="color:#0000ff;"><strong>public Class&lt;HomePage&gt; getHomePage(){</strong></span></div>
+<div style="padding-left:90px;"><span style="white-space:pre;"><span style="color:#0000ff;"><strong> </strong></span></span><span style="color:#0000ff;"><strong>return HomePage.class;</strong></span></div>
+<div style="padding-left:60px;"><span style="white-space:pre;"><span style="color:#0000ff;"><strong> </strong></span></span><span style="color:#0000ff;"><strong>}</strong></span></div>
+<div style="padding-left:30px;"><span style="color:#0000ff;"><strong>}</strong></span></div>
+</div>
+<div>Que vai ficar da seguinte maneira em Scala:</div>
+<div>
+<div style="padding-left:30px;"><span style="color:#800000;"><strong><strong><span style="color:#800000;">package br.tassiovirginio.wicketscala</span></strong></strong></span></div>
+<div style="padding-left:30px;"><span style="color:#800000;"><strong><br />
+</strong></span></div>
+<div style="padding-left:30px;"><span style="color:#800000;"><strong>import org.apache.wicket.protocol.http.WebApplication</strong></span></div>
+<div style="padding-left:30px;"><span style="color:#800000;"><strong><br />
+</strong></span></div>
+<div style="padding-left:30px;"><span style="color:#800000;"><strong>class WicketApplicationScala extends WebApplication{</strong></span></div>
+<div style="padding-left:60px;"><span style="color:#800000;"><strong>def getHomePage() = classOf[HomePageScala]</strong></span></div>
+<div style="padding-left:30px;"><span style="color:#800000;"><strong>}</strong></span></div>
+</div>
+<div>Agora vamos fazer o Mesmo com HomePage.java:</div>
+<div>
+<div style="padding-left:30px;"><span style="color:#0000ff;"><strong>package br.tassiovirginio.wicketscala;</strong></span></div>
+<div style="padding-left:30px;"><span style="color:#0000ff;"><strong><br />
+</strong></span></div>
+<div style="padding-left:30px;"><span style="color:#0000ff;"><strong>import org.apache.wicket.PageParameters;</strong></span></div>
+<div style="padding-left:30px;"><span style="color:#0000ff;"><strong>import org.apache.wicket.markup.html.basic.Label;</strong></span></div>
+<div style="padding-left:30px;"><span style="color:#0000ff;"><strong>import org.apache.wicket.markup.html.WebPage;</strong></span></div>
+<div style="padding-left:30px;"><span style="color:#0000ff;"><strong><br />
+</strong></span></div>
+<div style="padding-left:30px;"><span style="color:#0000ff;"><strong>public class HomePage extends WebPage {</strong></span></div>
+<div style="padding-left:30px;"><span style="color:#0000ff;"><strong><br />
+</strong></span></div>
+<div style="padding-left:60px;"><span style="white-space:pre;"><span style="color:#0000ff;"><strong> </strong></span></span><span style="color:#0000ff;"><strong>private static final long serialVersionUID = 1L;</strong></span></div>
+<div style="padding-left:60px;"><span style="color:#0000ff;"><strong><br />
+</strong></span></div>
+<div style="padding-left:60px;"><span style="color:#0000ff;"><strong> public HomePage(final PageParameters parameters) {</strong></span></div>
+<div style="padding-left:90px;"><span style="color:#0000ff;"><strong><span style="color:#0000ff;"> add(new Label("message", "</span><span style="color:#800000;font-weight:normal;"><strong><span style="color:#0000ff;">Primeiro exemplo Wicket + Scala</span></strong></span><span style="color:#0000ff;">"));</span></strong></span></div>
+<div style="padding-left:60px;"><span style="color:#0000ff;"><strong> }</strong></span></div>
+<div style="padding-left:30px;"><span style="color:#0000ff;"><strong>}</strong></span></div>
+</div>
+<div>para HomePageScala.scala:</div>
+<div>
+<div style="padding-left:30px;"><span style="color:#800000;"><strong>package br.tassiovirginio.wicketscala</strong></span></div>
+<div style="padding-left:30px;"><span style="color:#800000;"><strong><br />
+</strong></span></div>
+<div style="padding-left:30px;"><span style="color:#800000;"><strong>import org.apache.wicket.PageParameters</strong></span></div>
+<div style="padding-left:30px;"><span style="color:#800000;"><strong>import org.apache.wicket.markup.html.basic.Label</strong></span></div>
+<div style="padding-left:30px;"><span style="color:#800000;"><strong>import org.apache.wicket.markup.html.WebPage</strong></span></div>
+<div style="padding-left:30px;"><span style="color:#800000;"><strong><br />
+</strong></span></div>
+<div style="padding-left:30px;"><strong><span style="color:#800000;">class HomePageScala(val parameters:PageParameters) extends WebPage {</span></strong></div>
+<div style="padding-left:30px;"><span style="color:#800000;"><strong><br />
+</strong></span>
+<div style="padding-left:30px;"><span style="color:#800000;">add(new Label("message", "Primeiro exemplo Wicket + Scala"))</span></div>
+<div><span style="color:#800000;">}</span></div>
+</div>
+<div style="padding-left:30px;"><strong><span style="color:#800000;">object HomePageScala{val serialVersionUID = 1L}</span></strong></div>
+<div><span style="color:#800000;"><span style="color:#000000;">Agora vamos configurar o web.xml</span></span></div>
+<div><span style="color:#800000;"><span style="color:#000000;">onde tem -&gt; <span style="color:#0000ff;">br.tassiovirginio.wicketscala.WicketApplication</span></span></span></div>
+<div><span style="color:#800000;"><span style="color:#000000;">vai ficar -&gt; <span style="color:#800000;">br.tassiovirginio.wicketscala.WicketApplicationScala</span></span></span></div>
+<div><span style="color:#800000;"><span style="color:#000000;"><span style="color:#800000;"><strong><span style="text-decoration:underline;"><span style="color:#ff0000;">Correção:</span> <span style="color:#ff0000;">Renomear o arquivo <span style="color:#0000ff;">HomePage.html</span> para <span style="color:#000000;">HomePageScala.html.</span></span></span></strong></span></span></span></div>
+<div><span style="color:#800000;"><span style="color:#000000;">E finalizamos nosso primeiro exemplo utilizando o Wicket e a linguagem Scala.</span></span></div>
+<div><span style="color:#800000;"><span style="color:#000000;">para rodar o projeto: <strong>mvn jetty:run</strong></span></span></div>
+<div>Comentem.... Abraços !!!</div>
+<div><span style="color:#800000;"><span style="color:#000000;"><br />
+</span></span></div>
+<div><span style="color:#800000;"><strong><br />
+</strong></span></div>
+</div>

@@ -1,0 +1,96 @@
+---
+layout: post
+title: Ruby - Escrevendo um Exemplo com Ruby (Adaptado de um codigo Java)
+date: 2007-02-13 13:46:25.000000000 -03:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Ruby
+tags: []
+meta: {}
+author:
+  login: tassiovirginio
+  email: tassiovirginio@gmail.com
+  display_name: Tássio Virgínio
+  first_name: Tássio
+  last_name: Virgínio
+---
+<p><span class="postbody">Comecei a estudar essa linguagem script (100% OO), pois estava com curiosidade sobre esses tipos de linguagem.<br />
+Me surpreendeu muito a facilidade na programação. pra vc´s terem uma ideia peguei nos Sliders do Mestre Jocelio Passos da FACAPE( <a href="http://www.facape.br/jocelio/p3/material_em_pdf/OOClasseConta.pdf" target="_new" rel="nofollow">http://www.facape.br/jocelio/p3/material_em_pdf/OOClasseConta.pdf</a>) um exemplo de uma aplicação feita em Java e a refiz em Ruby. <img src="{{ site.baseurl }}/assets/283a16da79f3aa23fe1025c96295f04f.gif" /> (Esqueci de pedir autorização a Jocelio) <img src="{{ site.baseurl }}/assets/69934afc394145350659cd7add244ca9.gif" /><br />
+Tire suas proprias conclusões... (Esse codigo ficou bem menor que o de Java <img src="{{ site.baseurl }}/assets/69934afc394145350659cd7add244ca9.gif" />)<strong><br />
+<font color="red"><br />
+class Conta<br />
+attr_accessor :numero,:nome,:saldo</font></strong></span></p>
+<p><strong><font color="red">def initialize(numero,nome,saldo=0)<br />
+@numero = numero<br />
+@nome = nome<br />
+@saldo = saldo<br />
+end</font></strong></p>
+<p><strong><font color="red">def to_s<br />
+puts "Conta:#{numero} Nome:#{nome} Saldo:#{saldo}"<br />
+end</font></strong></p>
+<p><strong><font color="red">def debitar(x)<br />
+@saldo -=x<br />
+end</font></strong></p>
+<p><strong><font color="red">def creditar(x)<br />
+@saldo +=x<br />
+end</font></strong></p>
+<p><strong><font color="red">def transferir(conta,valor)<br />
+debitar(valor)<br />
+conta.creditar(valor)<br />
+end</font></strong></p>
+<p><strong><font color="red">end<br />
+</font><br />
+<font color="blue"><br />
+class ContaCorrente &lt; Conta<br />
+Cpmf = 0.0038</font></strong></p>
+<p><strong><font color="blue">def initialize(numero,nome,saldo=0)<br />
+super<br />
+end</font></strong></p>
+<p><strong><font color="blue">def debitar(valor)<br />
+super(valor*(1+Cpmf))<br />
+end</font></strong></p>
+<p><strong><font color="blue">def to_s<br />
+puts "Conta Corrente"<br />
+super<br />
+end<br />
+end<br />
+</font><br />
+<font color="red"><br />
+class ContaPoupanca &lt; Conta<br />
+def initialize(numero,nome,saldo=0)<br />
+super<br />
+end</font></strong></p>
+<p><strong><font color="red">def renderjuros(juros)<br />
+creditar(saldo*(juros.to_f/100))<br />
+end</font></strong></p>
+<p><strong><font color="red">def to_s<br />
+puts "Conta Poupanca"<br />
+super<br />
+end</font></strong></p>
+<p><strong><font color="red">end<br />
+</font><br />
+<font color="blue"><br />
+cc = ContaCorrente::new(1,"Joao")<br />
+cp = ContaPoupanca::new(2,"Maria")</font></strong></p>
+<p><strong><font color="blue">puts "Movimento bancario"<br />
+puts "Creditos Iniciais 1000 e 600"</font></strong></p>
+<p><strong><font color="blue">cc.creditar(1000)<br />
+cp.creditar(600)<br />
+puts cc<br />
+puts cp</font></strong></p>
+<p><strong><font color="blue">puts "Debitando 100 e 50"<br />
+cc.debitar(100)<br />
+cp.debitar(50)<br />
+puts cc<br />
+puts cp</font></strong></p>
+<p><strong><font color="blue">puts "Transferir 100 da conta corrente para poupanca"<br />
+cc.transferir(cp,100)<br />
+puts cc<br />
+puts cp</font></strong></p>
+<p><strong><font color="blue">puts "Rendendo juros da poupanca"<br />
+cp.renderjuros(10)<br />
+puts cp</font></strong></p>

@@ -1,0 +1,41 @@
+---
+layout: post
+title: Tocando mp3 com o JRuby
+date: 2008-05-13 14:49:51.000000000 -03:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags: []
+meta:
+  _edit_last: '799537'
+author:
+  login: tassiovirginio
+  email: tassiovirginio@gmail.com
+  display_name: Tássio Virgínio
+  first_name: Tássio
+  last_name: Virgínio
+---
+<p>Blz Pessoal ?</p>
+<p>tava curiando o jruby, e acabei fazendo essa class pra tocar mp3 com uma biblioteca do java (java layer). pra rodar é preciso ter esse biblioteca (<a href="http://www.javazoom.net/javalayer/javalayer.html">http://www.javazoom.net/javalayer/javalayer.html</a>).</p>
+<p>Quem quizer ajudar a melhorar o codigo, colocando novos metodos, será bem vindo ! Até mais !!!!</p>
+<ol class="dp-rb">
+<li class="alt"><span><span class="comment">#Corrigido...</span><span> </span></span></li>
+<li><span> require <span class="string">'java'</span><span> </span></span></li>
+<li class="alt"><span> include_class <span class="string">"javazoom.jl.player.Player"</span><span> </span></span></li>
+<li><span> include_class <span class="string">"java.io.FileInputStream"</span><span> </span></span></li>
+<li class="alt"><span> include_class <span class="string">"java.io.BufferedInputStream"</span><span> </span></span></li>
+<li><span> </span></li>
+<li class="alt"><span> <span class="keyword">class</span><span> PlayerMP3 &lt; Player </span></span></li>
+<li><span> <span class="keyword">def</span><span> initialize(url_mp3) </span></span></li>
+<li class="alt"><span> fi =  FileInputStream.<span class="keyword">new</span><span>(url_mp3) </span></span></li>
+<li><span> bis = BufferedInputStream.<span class="keyword">new</span><span>(fi) </span></span></li>
+<li class="alt"><span> <span class="keyword">super</span><span>(bis) </span></span></li>
+<li><span> <span class="keyword">end</span><span> </span></span></li>
+<li class="alt"><span> <span class="keyword">end</span><span> </span></span></li>
+<li><span> </span></li>
+<li class="alt"><span>[<span class="string">"c:\\b.mp3"</span><span>,</span><span class="string">"c:\\a.mp3"</span><span>].</span><span class="keyword">each</span><span>{|mp3| PlayerMP3.</span><span class="keyword">new</span><span>(mp3).play}<br />
+</span></span></li>
+</ol>

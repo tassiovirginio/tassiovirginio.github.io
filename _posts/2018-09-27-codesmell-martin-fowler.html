@@ -1,0 +1,36 @@
+---
+layout: post
+title: CodeSmell - Martin Fowler
+date: 2018-09-27 18:22:25.000000000 -03:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- CodeSmell
+tags: []
+meta:
+  _edit_last: '799537'
+  geo_public: '0'
+  timeline_notification: '1538083346'
+  _publicize_job_id: '22604108459'
+  _wp_old_slug: codesmell-martin-fowler-traducao
+author:
+  login: tassiovirginio
+  email: tassiovirginio@gmail.com
+  display_name: Tássio Virgínio
+  first_name: Tássio
+  last_name: Virgínio
+---
+<p>Tradução do artigo de Martin Fowler - <a href="https://www.martinfowler.com/bliki/CodeSmell.html">link</a></p>
+<p><a href="https://www.martinfowler.com">
+
+  <img class="" src="{{ site.baseurl }}/images/martinfowler.jpg" width="112" height="112" /></a> 
+</p>
+<p>Um <strong>codesmell</strong> (cheiro no código - tradução literal) é uma indicação superficial que na maioria das vezes corresponde a um problema mais profundo no sistema. O termo foi cunhado por <strong>Kent Beck</strong> enquanto me ajudava com o meu livro de refatoração (<a href="https://www.martinfowler.com/books/refactoring.html">Refactoring Book</a> / <a href="https://www.amazon.com.br/Refatoração-Aperfeiçoando-Projeto-Código-Existente-ebook/dp/B019IZK89A">Refatoração</a> ).</p>
+<p>A definição rápida acima contém alguns pontos sutis. Em primeiro lugar, um <strong>smell</strong> (cheiro) é, por definição, algo que é rápido de detectar - fedorento (ou de forte odor), como eu disse recentemente. Um método longo é um bom exemplo disso - basta olhar para o código e meu nariz se contorce se eu ver mais de uma dúzia de linhas de java.</p>
+<p>A segunda é que smells nem sempre indicam um problema. Alguns métodos longos são bons. Você tem que se aprofundar no código para ver se há um problema inplicito/encoberto nele - smells não são inerentemente ruins por conta própria - eles são muitas vezes um indicador de um problema e não o problema em si.</p>
+<p>Os melhores smells são de fácil detectção e, na maioria das vezes, levam a problemas realmente interessantes. Classes de dados (classes com todos os dados e sem comportamento) são bons exemplos disso. Você olha para elas e se pergunta: qual comportamento essa classe deve ter ? Então você começa a refatorar para mover esse comportamento para lá. Freqüentemente, perguntas simples e refatorações iniciais podem ser o passo vital para transformar objetos anêmicos em algo que realmente tenha classe.</p>
+<p>Uma das coisas boas dos smells é que é fácil para pessoas inexperientes detectá-los, mesmo que elas não saibam o suficiente para avaliar se há um problema real ou para corrigi-los. Já ouvi falar de <strong>lead developers</strong> (desenvolvedores líderes) que escolhem um <strong>"smell da semana"</strong> e pedem que as pessoas procurem o smell e leve-os aos membros mais experientes da equipe. Fazer um <strong>smell</strong> de cada vez é uma boa maneira de ensinar gradualmente as pessoas da equipe a serem melhores programadores.</p>
+<p>fonte: <a href="https://www.martinfowler.com/bliki/CodeSmell.html">link</a></p>

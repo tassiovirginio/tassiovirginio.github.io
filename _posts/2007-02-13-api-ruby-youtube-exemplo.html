@@ -1,0 +1,64 @@
+---
+layout: post
+title: API Ruby YouTube - Exemplo
+date: 2007-02-13 12:27:46.000000000 -03:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Ruby
+tags: []
+meta: {}
+author:
+  login: tassiovirginio
+  email: tassiovirginio@gmail.com
+  display_name: Tássio Virgínio
+  first_name: Tássio
+  last_name: Virgínio
+---
+<p>Estava eu navegando pela internet, quando achei um artigo sobre essa <span class="caps">API</span>, fiz os exemplos em Ruby, depois transformei para Rails. Ai vai o passo-a-passo:</p>
+<p>1) Vamos instalar a api:</p>
+<p><strong>gem install youtube</strong></p>
+<p>2)Iniciamos um projeto:</p>
+<p><strong>rails TesteYouTube</strong></p>
+<p>3) Criamos Um Controller:</p>
+<ol class="dp-rb">
+<li class="alt"><span><span class="keyword">class</span><span> YoutubeController &lt; ApplicationController  </span></span></li>
+<li><span>  require <span class="string">'youtube'</span><span>  </span></span></li>
+<li class="alt"><span>  </span></li>
+<li><span>  <span class="keyword">def</span><span> index    </span></span></li>
+<li class="alt"><span>  <span class="keyword">end</span><span>  </span></span></li>
+<li><span>  </span></li>
+<li class="alt"><span>  <span class="keyword">def</span><span> fazer_busca  </span></span></li>
+<li><span>    youtube = YouTube::Client.<span class="keyword">new</span><span> </span><span class="string">'develop_id'</span><span>  </span></span></li>
+<li class="alt"><span>    <span class="variable">@videos</span><span> = youtube.videos_by_tag(params[</span><span class="symbol">:busca</span><span>][</span><span class="string">'texto'</span><span>])  </span></span></li>
+<li><span>  <span class="keyword">end</span><span>  </span></span></li>
+<li class="alt"><span><span class="keyword">end</span><span> </span></span></li>
+</ol>
+<p>4) Criamos os views <span class="caps">RHTML</span></p>
+<p><strong>index.rhtml</strong></p>
+<ol class="dp-rb">
+<li class="alt"><span><span>&lt;%= start_form_tag  </span><span class="symbol">:action</span><span> =&gt; </span><span class="string">'fazer_busca'</span><span> %&gt;  </span></span></li>
+<li><span>  &lt;%= text_field <span class="string">'busca'</span><span>,</span><span class="string">'texto'</span><span>%&gt;  </span></span></li>
+<li class="alt"><span>  &lt;%= submit_tag <span class="string">"Buscar"</span><span> %&gt;  </span></span></li>
+<li><span>&lt;%= end_form_tag %&gt;<br />
+</span></li>
+</ol>
+<p><strong>fazer_busca.rhtml</strong></p>
+<ol class="dp-rb">
+<li class="alt"><span><span>Resultado: &lt;%= </span><span class="variable">@videos</span><span>.size.to_s %&gt; &lt;/br&gt;  </span></span></li>
+<li><span>&lt;% <span class="variable">@videos</span><span>.</span><span class="keyword">each</span><span> { </span><span class="variable">|video</span><span>| %&gt;  </span></span></li>
+<li class="alt"><span>&lt;b&gt; &lt;%= video.title %&gt; - &lt;%= video.rating_avg.to_s %&gt; &lt;/b&gt; &lt;br&gt;  </span></li>
+<li><span>&lt;a href=<span class="string">'&lt;%= video.url %&gt;'</span><span>&gt;  </span></span></li>
+<li class="alt"><span>  &lt;img src=<span class="string">'&lt;%= video.thumbnail_url %&gt;'</span><span> /&gt;  </span></span></li>
+<li><span>&lt;/a&gt;  </span></li>
+<li class="alt"><span>&lt;br&gt;  </span></li>
+<li><span>&lt;a href=<span class="string">'&lt;%= video.embed_url %&gt;'</span><span>&gt;Link Embed&lt;/a&gt; &lt;br&gt;  </span></span></li>
+<li class="alt"><span>&lt;% } %&gt;<br />
+</span></li>
+</ol>
+<p>Pronto !!!!</p>
+<p><span class="caps">OBS</span>: o develop_id vc tem que fazer no site do <a href="http://youtube.com/my_profile_dev">youtube.dev</a></p>
+<p><a href="http://shanesbrain.net/articles/2006/09/28/a-ruby-interface-to-the-youtube-api">Origem</a></p>

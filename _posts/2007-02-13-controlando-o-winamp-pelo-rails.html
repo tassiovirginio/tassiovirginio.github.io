@@ -1,0 +1,185 @@
+---
+layout: post
+title: Controlando o Winamp pelo Rails
+date: 2007-02-13 12:27:06.000000000 -03:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Ruby
+tags: []
+meta: {}
+author:
+  login: tassiovirginio
+  email: tassiovirginio@gmail.com
+  display_name: Tássio Virgínio
+  first_name: Tássio
+  last_name: Virgínio
+---
+<p>Aproveitando o artigo de Daniel (<a href="http://forum.rubyonbr.org/forums/14/topics/698">esse</a>), fiz um controle para o Winamp pelo Rails. Onde acessamos um site com alguns controles…</p>
+<p>Coloquei esse arquivo na pasta “components”:</p>
+<p><strong>“winamp.rb”</strong></p>
+<ol class="dp-rb">
+<li class="alt"><span><span>require </span><span class="string">'Win32API'</span><span>    </span></span></li>
+<li><span>  </span></li>
+<li class="alt"><span> <span class="keyword">class</span><span> Winamp    </span></span></li>
+<li><span>  </span></li>
+<li class="alt"><span>   WM_COMMAND = 0x0111    </span></li>
+<li><span>   WA_NOTHING = 0    </span></li>
+<li class="alt"><span>  </span></li>
+<li><span>   WA_PLAY = 40045    </span></li>
+<li class="alt"><span>   WA_STOP = 40047;    </span></li>
+<li><span>   WA_PAUSE = 40046;    </span></li>
+<li class="alt"><span>   WA_PREVTRACK = 40044;    </span></li>
+<li><span>   WA_NEXTTRACK = 40048;    </span></li>
+<li class="alt"><span>  </span></li>
+<li><span>   WA_PLAYLISTLEN = 124;    </span></li>
+<li class="alt"><span>   WA_SETVOLUME = 122 ;    </span></li>
+<li><span>   WA_SETPLAYLISTPOS = 121;    </span></li>
+<li class="alt"><span>   WA_CLEARPLAYLIST = 101;    </span></li>
+<li><span>  </span></li>
+<li class="alt"><span>   WA_RESTART = 135;    </span></li>
+<li><span>   WA_GETSTATUS = 104;    </span></li>
+<li class="alt"><span>   WA_REFRESHPLCACHE = 247;    </span></li>
+<li><span>   WA_SETSHUFFLESTATUS = 252;    </span></li>
+<li class="alt"><span>   WA_SETREPEATSTATUS = 253;    </span></li>
+<li><span>   WA_VOLUMEUP = 40058;    </span></li>
+<li class="alt"><span>   WA_VOLUMEDOWN = 40059;    </span></li>
+<li><span>  </span></li>
+<li class="alt"><span>   <span class="keyword">class</span><span> &lt;&lt; </span><span class="keyword">self</span><span>    </span></span></li>
+<li><span>     <span class="keyword">def</span><span> novo_metodo(metodo, &amp;proc)    </span></span></li>
+<li class="alt"><span>       <span class="keyword">define_method</span><span>(metodo) { instance_eval &amp;proc </span><span class="keyword">if</span><span> </span><span class="variable">@handle</span><span> }     </span></span></li>
+<li><span>     <span class="keyword">end</span><span>    </span></span></li>
+<li class="alt"><span>   <span class="keyword">end</span><span>    </span></span></li>
+<li><span>  </span></li>
+<li class="alt"><span>   <span class="keyword">def</span><span> initialize    </span></span></li>
+<li><span>     <span class="variable">@handle</span><span> = find_window(</span><span class="string">'Winamp v1.x'</span><span>, 0)     </span></span></li>
+<li class="alt"><span>   <span class="keyword">end</span><span>    </span></span></li>
+<li><span>  </span></li>
+<li class="alt"><span>   novo_metodo <span class="symbol">:vol_mais</span><span> </span><span class="keyword">do</span><span> send_message(</span><span class="variable">@handle</span><span>, WM_COMMAND, WA_VOLUMEUP, WA_NOTHING)  </span><span class="keyword">end</span><span>       </span></span></li>
+<li><span>  </span></li>
+<li class="alt"><span>   novo_metodo <span class="symbol">:vol_menos</span><span> </span><span class="keyword">do</span><span> send_message(</span><span class="variable">@handle</span><span>, WM_COMMAND, WA_VOLUMEDOWN, WA_NOTHING)  </span><span class="keyword">end</span><span>             </span></span></li>
+<li><span>  </span></li>
+<li class="alt"><span>   novo_metodo <span class="symbol">:play</span><span> </span><span class="keyword">do</span><span> send_message(</span><span class="variable">@handle</span><span>, WM_COMMAND, WA_PLAY, WA_NOTHING)  </span><span class="keyword">end</span><span>    </span></span></li>
+<li><span>  </span></li>
+<li class="alt"><span>   novo_metodo <span class="symbol">:stop</span><span> </span><span class="keyword">do</span><span> send_message(</span><span class="variable">@handle</span><span>, WM_COMMAND, WA_STOP, WA_NOTHING)  </span><span class="keyword">end</span><span>    </span></span></li>
+<li><span>  </span></li>
+<li class="alt"><span>   novo_metodo <span class="symbol">:pause</span><span> </span><span class="keyword">do</span><span> send_message(</span><span class="variable">@handle</span><span>, WM_COMMAND, WA_PAUSE, WA_NOTHING)  </span><span class="keyword">end</span><span>    </span></span></li>
+<li><span>  </span></li>
+<li class="alt"><span>   novo_metodo <span class="symbol">:faixa_anterior</span><span> </span><span class="keyword">do</span><span>  send_message(</span><span class="variable">@handle</span><span>, WM_COMMAND, WA_PREVTRACK, WA_NOTHING)  </span><span class="keyword">end</span><span>    </span></span></li>
+<li><span>  </span></li>
+<li class="alt"><span>   novo_metodo <span class="symbol">:faixa_seguinte</span><span> </span><span class="keyword">do</span><span>  send_message(</span><span class="variable">@handle</span><span>, WM_COMMAND, WA_NEXTTRACK, WA_NOTHING)  </span><span class="keyword">end</span><span>    </span></span></li>
+<li><span>  </span></li>
+<li class="alt"><span>   private    </span></li>
+<li><span>   <span class="keyword">def</span><span> send_message(*args)    </span></span></li>
+<li class="alt"><span>     Win32API.<span class="keyword">new</span><span>(</span><span class="string">"user32"</span><span>, </span><span class="string">"SendMessage"</span><span>, [</span><span class="string">'L'</span><span>] * 4, </span><span class="string">'L'</span><span>).call *args    </span></span></li>
+<li><span>   <span class="keyword">end</span><span>    </span></span></li>
+<li class="alt"><span>  </span></li>
+<li><span>   <span class="keyword">def</span><span> find_window(*args)    </span></span></li>
+<li class="alt"><span>     Win32API.<span class="keyword">new</span><span>(</span><span class="string">'user32'</span><span>,</span><span class="string">'FindWindow'</span><span>, </span><span class="string">'PI'</span><span>, </span><span class="string">'I'</span><span>).call *args    </span></span></li>
+<li><span>   <span class="keyword">end</span><span>    </span></span></li>
+<li class="alt"><span>  </span></li>
+<li><span> <span class="keyword">end</span><span><br />
+</span></span></li>
+</ol>
+<p>Depois criei um controle: “winamp”</p>
+<ol class="dp-rb">
+<li class="alt"><span><span class="keyword">class</span><span> WinampController &lt; ApplicationController  </span></span></li>
+<li><span>  @<span class="variable">@winamp</span><span> = Winamp.</span><span class="keyword">new</span><span>    </span></span></li>
+<li class="alt"><span>  </span></li>
+<li><span>  <span class="keyword">def</span><span> index  </span></span></li>
+<li class="alt"><span>  </span></li>
+<li><span>  <span class="keyword">end</span><span>  </span></span></li>
+<li class="alt"><span>  </span></li>
+<li><span>  <span class="keyword">def</span><span> play  </span></span></li>
+<li class="alt"><span>    @<span class="variable">@winamp</span><span>.play  </span></span></li>
+<li><span>    redirect_to(<span class="symbol">:action</span><span> =&gt; </span><span class="string">"index"</span><span>)  </span></span></li>
+<li class="alt"><span>  <span class="keyword">end</span><span>  </span></span></li>
+<li><span>  </span></li>
+<li class="alt"><span>  <span class="keyword">def</span><span> stop  </span></span></li>
+<li><span>    @<span class="variable">@winamp</span><span>.stop  </span></span></li>
+<li class="alt"><span>    redirect_to(<span class="symbol">:action</span><span> =&gt; </span><span class="string">"index"</span><span>)      </span></span></li>
+<li><span>  <span class="keyword">end</span><span>  </span></span></li>
+<li class="alt"><span>  </span></li>
+<li><span>  <span class="keyword">def</span><span> pause  </span></span></li>
+<li class="alt"><span>    @<span class="variable">@winamp</span><span>.pause  </span></span></li>
+<li><span>    redirect_to(<span class="symbol">:action</span><span> =&gt; </span><span class="string">"index"</span><span>)      </span></span></li>
+<li class="alt"><span>  <span class="keyword">end</span><span>  </span></span></li>
+<li><span>  </span></li>
+<li class="alt"><span>  <span class="keyword">def</span><span> </span><span class="keyword">next</span><span>  </span></span></li>
+<li><span>    @<span class="variable">@winamp</span><span>.faixa_seguinte  </span></span></li>
+<li class="alt"><span>    redirect_to(<span class="symbol">:action</span><span> =&gt; </span><span class="string">"index"</span><span>)      </span></span></li>
+<li><span>  <span class="keyword">end</span><span>  </span></span></li>
+<li class="alt"><span>  </span></li>
+<li><span>  <span class="keyword">def</span><span> preview  </span></span></li>
+<li class="alt"><span>    @<span class="variable">@winamp</span><span>.faixa_anterior  </span></span></li>
+<li><span>    redirect_to(<span class="symbol">:action</span><span> =&gt; </span><span class="string">"index"</span><span>)      </span></span></li>
+<li class="alt"><span>  <span class="keyword">end</span><span>  </span></span></li>
+<li><span>  </span></li>
+<li class="alt"><span><span class="keyword">def</span><span> vol_mais  </span></span></li>
+<li><span>  6.times {@<span class="variable">@winamp</span><span>.vol_mais}  </span></span></li>
+<li class="alt"><span>  redirect_to(<span class="symbol">:action</span><span> =&gt; </span><span class="string">"index"</span><span>)      </span></span></li>
+<li><span><span class="keyword">end</span><span>  </span></span></li>
+<li class="alt"><span>  </span></li>
+<li><span><span class="keyword">def</span><span> vol_menos  </span></span></li>
+<li class="alt"><span>  6.times {@<span class="variable">@winamp</span><span>.vol_menos}  </span></span></li>
+<li><span>  redirect_to(<span class="symbol">:action</span><span> =&gt; </span><span class="string">"index"</span><span>)      </span></span></li>
+<li class="alt"><span><span class="keyword">end</span><span><br />
+</span></span></li>
+<li><span>  </span></li>
+<li class="alt"><span><span class="keyword">end</span><span><br />
+</span></span></li>
+</ol>
+<p>Criaremos agora o “index.rhtml” do metodo index do controle winamp:</p>
+<ol class="dp-rb">
+<li class="alt"><span><span>&lt;img src=</span><span class="string">'http://munichshardesthits.com/pics/winamp_logo.jpg'</span><span> /&gt;  </span></span></li>
+<li><span>Winamp Controle 1.0  </span></li>
+<li class="alt"><span>&lt;table&gt;  </span></li>
+<li><span>  &lt;tr&gt;  </span></li>
+<li class="alt"><span>    &lt;td&gt;  </span></li>
+<li><span>&lt;%= start_form_tag <span class="symbol">:action</span><span> =&gt; </span><span class="string">'play'</span><span> %&gt;  </span></span></li>
+<li class="alt"><span>&lt;%= submit_tag <span class="string">"Play"</span><span> %&gt;  </span></span></li>
+<li><span>&lt;%= end_form_tag %&gt;  </span></li>
+<li class="alt"><span>&lt;/td&gt;  </span></li>
+<li><span>&lt;td&gt;  </span></li>
+<li class="alt"><span>&lt;%= start_form_tag <span class="symbol">:action</span><span> =&gt; </span><span class="string">'stop'</span><span> %&gt;  </span></span></li>
+<li><span>&lt;%= submit_tag <span class="string">"Stop"</span><span> %&gt;  </span></span></li>
+<li class="alt"><span>&lt;%= end_form_tag %&gt;  </span></li>
+<li><span>&lt;/td&gt;  </span></li>
+<li class="alt"><span>&lt;td&gt;  </span></li>
+<li><span>&lt;%= start_form_tag <span class="symbol">:action</span><span> =&gt; </span><span class="string">'pause'</span><span> %&gt;  </span></span></li>
+<li class="alt"><span>&lt;%= submit_tag <span class="string">"Pause"</span><span> %&gt;  </span></span></li>
+<li><span>&lt;%= end_form_tag %&gt;  </span></li>
+<li class="alt"><span>&lt;/td&gt;  </span></li>
+<li><span>&lt;td&gt;  </span></li>
+<li class="alt"><span>&lt;%= start_form_tag <span class="symbol">:action</span><span> =&gt; </span><span class="string">'preview'</span><span> %&gt;  </span></span></li>
+<li><span>&lt;%= submit_tag <span class="string">"Preview"</span><span> %&gt;  </span></span></li>
+<li class="alt"><span>&lt;%= end_form_tag %&gt;  </span></li>
+<li><span>&lt;/td&gt;  </span></li>
+<li class="alt"><span>&lt;td&gt;  </span></li>
+<li><span>&lt;%= start_form_tag <span class="symbol">:action</span><span> =&gt; </span><span class="string">'next'</span><span> %&gt;  </span></span></li>
+<li class="alt"><span>&lt;%= submit_tag <span class="string">"Next"</span><span> %&gt;  </span></span></li>
+<li><span>&lt;%= end_form_tag %&gt;  </span></li>
+<li class="alt"><span>&lt;/td&gt;  </span></li>
+<li><span>&lt;td&gt;  </span></li>
+<li class="alt"><span>&lt;%= start_form_tag <span class="symbol">:action</span><span> =&gt; </span><span class="string">'vol_mais'</span><span> %&gt;  </span></span></li>
+<li><span>&lt;%= submit_tag <span class="string">"+"</span><span> %&gt;  </span></span></li>
+<li class="alt"><span>&lt;%= end_form_tag %&gt;  </span></li>
+<li><span>&lt;/td&gt;  </span></li>
+<li class="alt"><span>&lt;td&gt;  </span></li>
+<li><span>&lt;%= start_form_tag <span class="symbol">:action</span><span> =&gt; </span><span class="string">'vol_menos'</span><span> %&gt;  </span></span></li>
+<li class="alt"><span>&lt;%= submit_tag <span class="string">"-"</span><span> %&gt;  </span></span></li>
+<li><span>&lt;%= end_form_tag %&gt;  </span></li>
+<li class="alt"><span>&lt;/td&gt;  </span></li>
+<li><span>&lt;tr&gt;  </span></li>
+<li class="alt"><span>&lt;/table&gt;<br />
+</span></li>
+</ol>
+<p>colocar no <strong>environment.rb</strong><span><span></span></span></p>
+<p><span><strong><em><span>require </span><span class="string">'winamp'</span></em></strong><span><strong><em>  </em></strong><br />
+</span></span></p>
+<p>Blz Pessoal, terminamos aqui… Aqui na empresa usei esse esquema para qualquer pessoa controlar o Winamp que fica em outra sala… podendo escolher, diminuir ou aumentar o som…</p>
+<p>Ainda não sei se foi uma boa ideia :P !</p>
+<p>Estava querendo ver se conseguia retornar a lista das musicas no site ! Quem puder ajudar… sera bem vindo ! :D</p>

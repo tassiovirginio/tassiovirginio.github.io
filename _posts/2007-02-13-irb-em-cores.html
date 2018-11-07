@@ -1,0 +1,31 @@
+---
+layout: post
+title: IRB em Cores
+date: 2007-02-13 12:28:01.000000000 -03:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Ruby
+tags: []
+meta: {}
+author:
+  login: tassiovirginio
+  email: tassiovirginio@gmail.com
+  display_name: Tássio Virgínio
+  first_name: Tássio
+  last_name: Virgínio
+---
+<p>Pessoal ai vai uma dica pra quem usa o Linux, como deixar o <span class="caps">IRB</span> colorido, vamos lá…</p>
+<p>1° executa esse comando:</p>
+<p><strong>$ sudo gem install wirble</strong></p>
+<p>2° Editar o arquivo <strong>irbrc</strong> e adiciona o seguinte codigo:</p>
+<p><strong>require ‘rubygems’</strong></p>
+<p><strong>require ‘wirble’</strong></p>
+<p><strong>Wirble.init</strong></p>
+<p><strong>Wirble.colorize</strong></p>
+<p><span class="caps">OBS</span>: Lembrando de Colocar os requires que já tiver na pagina juntos…</p>
+<p>Pronto… seu <span class="caps">IRB</span> esta em cores!</p>
+<p>Abraço a todos ! <a href="http://forum.rubyonbr.org/users/17/www.rubylandia.com/blog/2007/01/03/irb-a-todo-color">origem</a></p>
