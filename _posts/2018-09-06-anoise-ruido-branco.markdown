@@ -3,6 +3,7 @@ title:  "Anoise - Ruído Branco"
 date:   2018-09-06 23:05
 categories: [linux]
 tags: [linux,ruído branco]
+published: true
 ---
 
 O [Anoise](http://anoise.tuxfamily.org) é um aplicativo (play de ruídos) que já vem com algumas opções de sons na sua instalação padrão, mas pode ser adicionando vários outros.
