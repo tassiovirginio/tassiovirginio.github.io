@@ -1,0 +1,37 @@
+---
+layout: post
+title: On the Notion of Variability in Software Product Lines
+date: 2018-10-17 14:52:50.000000000 -03:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: [sintese]
+tags: []
+meta:
+  _publicize_pending: '1'
+  _rest_api_published: '1'
+  _rest_api_client_id: "-1"
+author:
+  login: tassiovirginio
+  email: tassiovirginio@gmail.com
+  display_name: Tássio Virgínio
+  first_name: Tássio
+  last_name: Virgínio
+---
+
+<p>Jilles van Gurp, Jan Bosch - Department of Mathematics and Computing Science, University of Groningen, Mikael Svahnberg - Department of Software Engineering &amp; Computer Science, Blekinge Technical University.</p>
+
+<p style='text-align:justify;'>Antigamente a variabilidade era tipicamente estática, para qualquer nova funcionalidade em um sistema o nível de codificação/alteração era muito grande. Atualmente temos soluções que atrasam para níveis posteriores do projeto as decisões de design. Temos a Software Product Line como uma metodologia de desenvolvimento de software que tenta expandir ao máximo a variabilidade, utilizando técnicas de componentização entre outras técnicas utilizadas por empresas.</p>
+<p style='text-align:justify;'>Pode-se notar que a variabilidade interfere diretamente nas possibilidades de alteração e adaptabilidade do sistema. Temos dois exemplos de sistemas adaptativos: (Wordpress) Runtime Dynamically Adapt, que mudam o seu funcionamento de acordo com as configurações setadas em runtime e (Kernel Linux) Compiletion Time, sistemas que mudam suas features em tempo de compilação.</p>
+<p style="text-align:center;">Funil da Variabilidade: Antes x Depois</p>
+<p style='text-align:justify;'><img class="  wp-image-281 alignright" src="{{ site.baseurl }}/images/grafico01.png" alt="grafico01" width="390" height="247" /></p>
+<p style="text-align:justify;">O artigo apresenta a figura 1, mostrando que a variabilidade aumenta as possibilidades do sistema o quanto antes ela for pensada. As contribuições do artigo são apresentar um framework ou uma taxonomia, conceitos, terminologias, e processos para gerenciar a variabilidade. Os trabalhos relatadas estão na linha de pesquisa de SPL, os participantes do artigo fazem parte do grupo de pesquisa. Que deu origem a um livro com casos de estudo e experiencias reportadas, descrever a dificuldade da implementação de SPL pelo motivo das dependências e conflitos entre produtos.</p>
+<p style="text-align:justify;">Pesquisas empíricas sugerem que SPL estimula o reuso nas organizações, e que os benefícios da reutilização aumenta o quanto antes no processo de desenvolvimento do produto ela é utilizada. A utilização de reuso é independente da implementação, seu foco é a informação da família de produtos, e não sobre sua implementação.</p>
+<p style="text-align:justify;">O Artigo apresenta uma proposta de melhoria da descrição dos Features Models os quais podemos visualizar no exemplo da figura 2, features externas e binding time (compiletime/runtime).</p>
+<p style='text-align:justify;'><img class="alignnone  wp-image-283" src="{{ site.baseurl }}/images/imagem02.png" alt="imagem02" width="674" height="386" /></p>
+<p style='text-align:justify;'>Outra contribuição do artigo é a classificação/tipologia das features: Mandatory Features, Optional Features, Variant Features, External Features. A abstração dos níveis de variabilidade, suas propriedades e seu padrões, criando uma base de gerenciamento das variabilidades.</p>
+<p style='text-align:justify;'>Um dos estudos de caso apresentados é o da Mozilla, com a lista de features (Themes, Security, Network, Java Support), e as técnicas utilizadas para a aplicação a variabilidade em várias camadas da aplicação (The broker pattern, Blackbox components, Dynamic binding, Scripting, Domain specific languages), tornando o Mozilla altamente configurável.</p>
+<p style='text-align:justify;'>O artigo tem como motivação a utilização de várias técnicas de variabilidade de forma ad-hoc utilizadas na industria, mas não sendo aprofundadas e estudadas de forma sistemática. O artigo conclui trazendo 3 contribuições, dentre elas, um framework de terminologias e conceitos sobre variabilidade, um levantamento dos padrões recorrentes de variabilidade e uma metodologia de gestão de variabilidades.</p>
+<p style='text-align:justify;'>&nbsp;</p>

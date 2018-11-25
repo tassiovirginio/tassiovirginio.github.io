@@ -1,13 +1,18 @@
 ---
 layout: default
+title: Sínteses
+permalink: /sinteses/
 robots: noindex
 ---
+
+#### **Aqui se encontra a síntese de alguns artigos que achei interessante:**
+<br>
 
 <div class="main-post-list">
 
   <ol class="post-list">
-    {% for post in paginator.posts %}
-    {% unless post.categories contains 'sintese' %}
+    {% for post in site.posts %}
+      {% if post.categories contains 'sintese' %}
       <li>
         <h2 class="post-list__post-title post-title"><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
         <p class="excerpt">{{ post.excerpt | strip_html }}&hellip;</p>
@@ -19,7 +24,7 @@ robots: noindex
         </div>
         <hr class="post-list__divider">
       </li>
-      {% endunless %}
+      {% endif %}
     {% endfor %}
   </ol>
 
