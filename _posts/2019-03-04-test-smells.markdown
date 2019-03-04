@@ -12,7 +12,7 @@ Hoje vou falar um pouco sobre Test Smells, o que são e quais os principais iden
 
 Antes de descrever o que são Test Smells, tenho que explicar primeiramente o que é um code smells (ou bad smell ou somente smell) no desenvolvimento de software. Tem determinou o termo foi o Martin fowler em seu livro "Refatoração" com ajuda de Kent Beck. Nesse livro Fowler descreve o que são e como detectar uma lista de Smells, que são "antipadrões" nos códigos, especificamente nesse livro na linguagem Java (mas na sua maioria são genéricos).
 
-Em seu artigo "Refactoring Test Code" de 2001, Arie van Deursen, ele percebeu que a refatoração de códigos de produção e de testes tinham seus próprios conjuntos de smells, realizou um levatamento dos smells que podemos encontrar em códigos de teste, e os modos de refatoração. Com esse estudo foram determinado o termo Test Smells.
+Em seu artigo "Refactoring Test Code" de 2001, Arie van Deursen, ele percebeu que a refatoração de códigos de produção e de testes tinham seus próprios conjuntos de smells, realizou um levantamento dos smells que podemos encontrar em códigos de teste, e os modos de refatoração. Com esse estudo foram determinado o termo Test Smells.
 
 A lista que iremos apresentar é com base nesse artigo de Deursen.
 
@@ -39,7 +39,7 @@ Um método de teste verifica vários métodos do objeto testado. Efeito possíve
 <br>
 
 - Lazy Test
-Vários métodos de teste verificando um método da classe testada usando os mesmos parametros.
+Vários métodos de teste verificando um método da classe testada usando os mesmos parâmetros.
 <br>
 
 - Assertion Roulette
@@ -51,7 +51,7 @@ Um teste interage com a classe sendo testada indiretamente por meio de outro obj
 <br>
 
 - For Testers Only
-Uma classe de produção contém métodoss usados apenas por métodos de teste.
+Uma classe de produção contém métodos usados apenas por métodos de teste.
 <br>
 
 - Sensitive Equality
@@ -62,4 +62,4 @@ O método toString é usado em instruções de Assertions. Efeito possível: Fal
 Pedaços (cópias) de código de produção contidos dentro dos testes unitários. Efeito possível: Cópias de código têm efeitos negativos na manutenção.
 <br>
 
-Essa lista é uma coletanea inicial dos test smells, atualmente já foram identificados outros na literatura cinza (blogs, revistas). Posteriormente irei enriquecer com mais detalhes e novos smalls essa página. Atualmente ela só tem o intuito de apresentar superficialmente o que são so test smells e sua origem.
+Essa lista é uma coletânea inicial dos test smells, atualmente já foram identificados outros na literatura cinza (blogs, revistas). Posteriormente irei enriquecer com mais detalhes e novos smalls essa página. Atualmente ela só tem o intuito de apresentar superficialmente o que são so test smells e sua origem.
