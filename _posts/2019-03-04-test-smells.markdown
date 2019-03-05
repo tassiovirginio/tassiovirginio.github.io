@@ -16,7 +16,7 @@ Em seu artigo "Refactoring Test Code" de 2001, Arie van Deursen, ele percebeu qu
 
 A lista que iremos apresentar é com base nesse artigo de Deursen.
 
-# Test Smells
+### Lista - Test Smells
 
 - Mystery Guest
 Um teste usa recursos externos (por exemplo, arquivo contendo dados de teste). Podendo ocasionar em dificuldades na compreensão do teste devido a valores desconhecidos.
