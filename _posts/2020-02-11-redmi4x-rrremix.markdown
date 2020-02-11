@@ -16,7 +16,12 @@ opções de ROMs:
 3 - AOSP Extended - https://downloads.aospextended.com/santoni/
 4 - Pixel Experience - https://download.pixelexperience.org/santoni (Android 10)
 5 - Lineage OS - https://download.lineageos.org/santoni
+6 - crDroid - https://theunlockr.com/rom/crdroid-rom-234/
 
+pré-requisitos:
+1 - instalar o ADB
+arch linux -> pamac install android-tools-adb
+verificando se o celular esta conectado -> adb devices
 
 Etapas:
 1 - desbloquear o bootload
