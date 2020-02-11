@@ -62,4 +62,85 @@ O método toString é usado em instruções de Assertions. Efeito possível: Fal
 Pedaços (cópias) de código de produção contidos dentro dos testes unitários. Efeito possível: Cópias de código têm efeitos negativos na manutenção.
 <br>
 
+São apresentados novos test smells no estudo de Meszaros, Smith e Andrea (2003), os quais apresentamos a seguir:
+
+ - Can’t See the Forest for the Trees
+ Possui muito código de teste, o qual dificulta entender o quê o teste está verificando. Os testes não agem como uma especificação porque demoram muito para serem entendidos.
+<br>
+
+ - Complex Undo Logic
+O código complexo de desmontagem do teste aumenta a probabilidade de deixar o ambiente de teste corrompido por não ser limpo corretamente. Isso resulta em "vazamentos de dados" que, posteriormente, podem fazer com que esse ou outros testes falhem sem motivo aparente.
+<br>
+
+ - Complex Test Code/Verbose Test
+ Excesso de código de teste ou Lógica de Teste Condicional (Conditional Test Logic). Difícil verificar a exatidão dele e mais propensos a conter erros.
+<br>
+
+ - Conditional Test Logic
+ Testes contendo lógica condicional (instruções IF ou loops).
+<br>
+
+ - Magic Numbers ou Hard Coded Test Data
+Muitos "Números Mágicos" ou Strings usados ao criar objetos que provavelmente resultam em um Teste Irrepetível.
+ <br>
+
+- Fragile Tests
+Toda vez que você altera o SUT, os testes não são compilados ou eles falham. Você precisa modificar muitos testes para tornar as coisas "verdes" novamente. Isso aumenta muito o custo de manutenção do sistema.
+<br>
+
+- Fragile Fixture
+Os testes começam a falhar quando um dispositivo compartilhado é modificado (por exemplo, novos registros são colocados no banco de dados). Isso ocorre porque os testes estão fazendo suposições sobre o conteúdo do dispositivo compartilhado.
+<br>
+
+- Interdependent Tests/Dependent Test
+Quando um teste falha, vários outros testes falham sem motivo aparente, porque dependem dos efeitos colaterais de um teste executado anteriormente. Os testes não podem ser executados sozinhos e são difíceis de manter.
+<br>
+
+- Unrepeatable Tests
+Os testes não podem ser executados repetidamente sem intervenção manual. Isso é causado por testes que não são limpos após sua execução e impedem que eles ou outros testes sejam executados novamente.
+<br>
+
+Peruma também apresentou alguns novos tipos de test smells em seu estudo, que são:
+
+- Constructor Initialization
+Métodos de teste que apresentam um construtor. Idealmente, o conjunto de testes não deve ter um construtor. A inicialização dos campos deve estar no método setUp(). Os desenvolvedores que desconhecem o objetivo do método setUp() permitiriam esse test smell criando um construtor para o conjunto de testes.
+<br>
+
+- Default Test
+Por padrão, o uma IDE cria classes de teste padrão quando um projeto é criado. Essas classes de teste de modelo devem servir como um exemplo para os desenvolvedores ao escrever testes de unidade e devem ser removidas ou renomeadas. A presença desses arquivos no projeto fará com que os desenvolvedores comecem a adicionar métodos de teste a esses arquivos, tornando a classe de teste padrão um contêiner de todos os casos de teste e violando as boas práticas de teste. Os problemas também surgiriam quando as classes precisassem ser renomeadas no futuro.
+<br>
+
+- Duplicate Assert
+Esse smell ocorre quando um método de teste testa a mesma condição várias vezes no mesmo método de teste.
+<br>
+
+- Empty Test
+Métodos de teste que não contêm instruções executáveis.
+<br>
+
+- Exception Handling
+Esse cheiro ocorre quando a aprovação ou reprovação de um método de teste depende explicitamente do método de produção que gera uma exceção.
+<br>
+
+- Ignored Test
+A partir do JUnit 4 é fornecido aos desenvolvedores a capacidade de impedir a execução de métodos de teste. No entanto, esses métodos de teste ignorados resultam em sobrecarga no que diz respeito ao tempo de compilação e um aumento na complexidade do código e no tempo de compreensão.
+<br>
+
+- Redundant Print
+As instruções de impressão nos testes de unidade são redundantes, pois os testes de unidade são executados como parte de um script automatizado. Podendo consumir recursos ou aumentar o tempo de execução.
+<br>
+
+- Redundant Assertion
+Esse smell ocorre quando os métodos de teste contêm declarações de asserção sempre verdadeiras ou falsas. Um teste destina-se a retornar um resultado binário, independentemente de o resultado pretendido estar correto ou não, e não deve retornar a mesma saída, independentemente da entrada.
+<br>
+
+- Sleepy Test 
+Os desenvolvedores introduzem esse cheiro quando precisam pausar a execução de instruções em um método de teste por um certo período e continuar a execução.
+<br>
+
+- Unknown Test 
+Um método de teste sem uma condição de asserção, o teste sempre vai dar como válido, não resultando em uma exceção. Essa prática de programação dificulta a compreensibilidade do teste.
+<br>
+
+
 Essa lista é uma coletânea inicial dos test smells, atualmente já foram identificados outros na literatura cinza (blogs, revistas). Posteriormente irei enriquecer com mais detalhes e novos smalls essa página. Atualmente ela só tem o intuito de apresentar superficialmente o que são so test smells e sua origem.
