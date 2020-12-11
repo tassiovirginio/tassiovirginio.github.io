@@ -116,7 +116,7 @@ Métodos de teste que não contêm instruções executáveis.
 <br>
 
 - Exception Handling<br>
-Esse cheiro ocorre quando a aprovação ou reprovação de um método de teste depende explicitamente do método de produção que gera uma exceção.
+Esse smell ocorre quando a aprovação ou reprovação de um método de teste depende explicitamente do método de produção que gera uma exceção.
 <br>
 
 - Ignored Test<br>
@@ -132,7 +132,7 @@ Esse smell ocorre quando os métodos de teste contêm declarações de asserçã
 <br>
 
 - Sleepy Test <br>
-Os desenvolvedores introduzem esse cheiro quando precisam pausar a execução de instruções em um método de teste por um certo período e continuar a execução.
+Os desenvolvedores introduzem esse smell quando precisam pausar a execução de instruções em um método de teste por um certo período e continuar a execução.
 <br>
 
 - Unknown Test <br>
