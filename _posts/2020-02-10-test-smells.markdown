@@ -7,7 +7,7 @@ published: true
 ---
 Test Smells, o que são e quais os principais identificados nos textos acadêmicos.
 
-Antes de descrever o que são Test Smells, tenho que explicar primeiramente o que é um code smells (ou bad smell ou somente smell) no desenvolvimento de software. Tem determinou o termo foi o Martin fowler em seu livro "Refatoração" com ajuda de Kent Beck. Nesse livro Fowler descreve o que são e como detectar uma lista de Smells, que são "antipadrões" nos códigos, especificamente nesse livro na linguagem Java (mas na sua maioria são genéricos).
+Antes de descrever o que são Test Smells, tenho que explicar primeiramente o que é um code smells (ou bad smell ou somente smell) no desenvolvimento de software. Quem determinou o termo foi o Martin fowler em seu livro "Refatoração" com ajuda de Kent Beck. Nesse livro Fowler descreve o que são e como detectar uma lista de Smells, que são "antipadrões" nos códigos, especificamente nesse livro na linguagem Java (mas na sua maioria são genéricos).
 
 Em seu artigo "Refactoring Test Code" de 2001, Arie van Deursen, ele percebeu que a refatoração de códigos de produção e de testes tinham seus próprios conjuntos de smells, realizou um levantamento dos smells que podemos encontrar em códigos de teste, e os modos de refatoração. Com esse estudo foram determinado o termo Test Smells.
 
