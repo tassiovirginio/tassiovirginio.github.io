@@ -1,5 +1,5 @@
 ---
-title:  "Tendências dos repositórios do Archlinux"
+title:  "Tendências dos Repositórios do Archlinux"
 date:   2021-01-02 19:00
 categories: [linux, arch]
 tags: [linux,arch, kde, plasma]
