@@ -8,29 +8,29 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: Teacher
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  name: IFTO - Campus Dianópolis
+  url: "http://www.ifto.edu.br/dianopolis"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: 'I am a teacher and passionate software engineer with 14 years of professional experience. I currently work with JSF, JPA and EJB. Supporting the SIGA EPTC system that is used throughout the Federal Institute of Tocantins.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "tassiovirginio@gmail.com"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
+  url: "https://www.github.com/tassiovirginio"
 
 - name: Stackoverflow
   icon: "fab fa-stack-overflow"
@@ -38,15 +38,15 @@ socialLinks:
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
+  url: "https://www.linkedin.com/in/tassiovirginio/"
 
 - name: Twitter
   icon: "fab fa-twitter"
-  url: "#"
+  url: "https://twitter.com/msc_tassio"
 
 - name: Facebook
   icon: "fab fa-facebook"
-  url: "#"
+  url: "https://www.facebook.com/tassiovirginio"
 
 - name: Mastadon
   icon: "fab fa-mastodon"
@@ -64,19 +64,20 @@ resourceLinks:
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
 - type: certification
-  name: Certified Kubernetes Security Specialist
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
+  name: Oracle Certified Professional Java SE 6 Programmer
+  # url: "https://education.oracle.com/oracle-certified-professional-java-se-6-programmer/trackp_357"
+  badge: "http://images.credly.com/images/8271b3d7-090a-42ec-9b84-d4f845698abd/Oracle-Certification-badge_OC-Professional600X600.png"
 
 - type: certification
-  name: Istio and IBM Cloud Kubernetes Service
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
+  name: Scrum Fundamentals Certified
+  # url: "https://www.scrumstudy.com/portuguese/scrum-fundamentals-certified"
+  badge: "https://i0.wp.com/edinburghagile.com/wp-content/uploads/2020/09/Scrum-Master-Certified-SMC-Badge.png?resize=609%2C656&ssl=1"
 
 - type: certification
-  name: Artificial Intelligence and Machine Learning
-  url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+  name: 
+  # url: "https://www.scrumstudy.com/portuguese/scrum-fundamentals-certified"
+  badge: ""
+
 
 - type: soft-skill-indicator
   name: Leadership

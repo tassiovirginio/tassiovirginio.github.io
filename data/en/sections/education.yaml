@@ -10,81 +10,118 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
+- name: M.Sc. in Computer Science
   icon: fa-microscope
-  timeframe: 2016-2020
+  timeframe: 2018-2020
   institution:
-    name: ABC University of Technology
-    url: "#"
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4
+    name: Federal University of Bahia - UFBA
+    url: "http://wiki.dcc.ufba.br/PGComp/"
+  #grade: #(optional)
+    #scale: CAPES
+    #achieved: 4
+    #outOf: 5
   publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
-  icon: fa-graduation-cap
-  timeframe: 2012-2016
-  institution:
-    name: University of XYZ
-    url: "#"
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.5
-    outOf: 4
-  takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: true
-    collapseAfter: 3
-    courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Higher Secondary School Certificate
+  - title: "An empirical evaluation of RAIDE: a semi-automated approach for test smells detection and refactoring - 2023"
+    url: "https://www.sciencedirect.com/science/article/abs/pii/S0167642323000953"
+  - title: "Refactoring Assertion Roulette and Duplicate Assert test smells: a controlled experiment - 2022"
+    url: "https://cibse2022.frc.utn.edu.ar/conferencia-principal-2/"
+  - title: "Avaliação empírica da geração automatizada de testes desoftware sob a perspectiva de Test Smells - 2021"
+    url: "https://sol.sbc.org.br/index.php/cbsoft_estendido/article/view/17292/17130"  
+  - title: "On the test smells detection: an empirical study on the JNose Test accuracy - 2021"
+    url: "https://sol.sbc.org.br/journals/index.php/jserd/article/view/1893"
+  - title: "JNose: Java Test Smell Detector - 2020"
+    url: "https://dl.acm.org/doi/10.1145/3422392.3422499"
+  - title: "An empirical study of automatically-generated tests from the perspective of test smells - 2020"
+    url: "https://dl.acm.org/doi/10.1145/3422392.3422412"
+  - title: "RAIDE: a tool for Assertion Roulette and Duplicate Assert identification and refactoring  - 2020"
+    url: "https://dl.acm.org/doi/10.1145/3422392.3422510"
+  - title: "On the influence of Test Smells on Test Coverage - 2019"
+    url: "https://dl.acm.org/doi/10.1145/3350768.3350775"
+
+
+- name: Specialization in Agile Software Development
   icon: fa-university
-  timeframe: 2010-2012
+  timeframe: 2011-2013
   institution:
-    name: MST College of Science
-    url: "#"
-  grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
-  icon: fa-school
-  timeframe: 2005-2010
+    name: University Center 7 September 7th, UNI7
+    url: "https://www.uni7.edu.br/"
+  # grade: #(optional)
+  #   scale: CAPES
+  #   achieved: 3.5
+  #   outOf: 5
+  # takenCourses: #(optional)
+  #   # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+  #   showGrades: true
+  #   courses:
+  #   - name: Data Structures and Algorithm
+  #     achieved: 3.75
+  #     outOf: 4
+  #   - name: Network Security
+  #     achieved: 3.80
+  #     outOf: 4
+  #   - name: Operating System
+  #     achieved: 3.5
+  #     outOf: 4
+  #   - name: Artificial Intelligent
+  #     achieved: 3.75
+  #     outOf: 4
+  # publications: #(optional)
+  # - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #   url: "#"
+  # - title: Fusce eu augue ut odio porttitor pulvinar.
+  #   url: "#"
+  # extracurricularActivities: #(optional)
+  # - In vitae facilisis est, eget porta sem.
+  # - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  # - Duis sed massa feugiat, ornare justo et, aliquam est.
+  # - Pellentesque ut fringilla magna.
+
+- name: Specialization in Test Analysis
+  icon: fa-university
+  timeframe: 2008-2008
   institution:
-    name: JK School of Science
-  grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+    name: Federal University of Pernambuco - CIn/UFPE
+    url: "https://portal.cin.ufpe.br/"
+  # grade: #(optional)
+  #   scale: CAPES
+  #   achieved: 5
+  #   outOf: 5
+  # extracurricularActivities: #(optional)
+  # - In vitae facilisis est, eget porta sem.
+  # - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  # - Duis sed massa feugiat, ornare justo et, aliquam est.
+  # - Pellentesque ut fringilla magna.
+# - name: Secondary School Certificate
+#   icon: fa-school
+#   timeframe: 2005-2010
+#   institution:
+#     name: JK School of Science
+#   grade: #(optional)
+#     scale: GPA
+#     achieved: 4.5
+#     outOf: 5
+
+- name: Graduation in Computer Science.
+  icon: fa-university
+  timeframe: 2002-2007
+  institution:
+    name: Petrolina Faculty of Applied and Social Sciences - FACAPE
+    url: "http://www.facape.br/"
+  # grade: #(optional)
+  #   scale: CAPES
+  #   achieved: 5
+  #   outOf: 5
+  # extracurricularActivities: #(optional)
+  # - In vitae facilisis est, eget porta sem.
+  # - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  # - Duis sed massa feugiat, ornare justo et, aliquam est.
+  # - Pellentesque ut fringilla magna.
+# - name: Secondary School Certificate
+#   icon: fa-school
+#   timeframe: 2005-2010
+#   institution:
+#     name: JK School of Science
+#   grade: #(optional)
+#     scale: GPA
+#     achieved: 4.5
+#     outOf: 5

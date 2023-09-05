@@ -11,54 +11,90 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
+    name: IFTO
+    url: "http://www.ifto.edu.br/"
+    location: Dianópolis - TO
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: The IFTO is an institution of higher, basic and professional education, pluricurricular and multicampi (rector, campus, advanced campus and distance education centers), specialized in offering professional and technological education in different teaching modalities, based on the combination of technical and technological knowledge with their pedagogical/andragogic practices.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: EBTT Teacher
+    start: Fev 2022
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    # end: Fev 2022
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - Teach students at basic, technical and higher levels.
+    # - Design and develop XYZ tool for ABC task
+    # - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
+    # - Lead backend team.
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: IFTO
+    url: "http://www.ifto.edu.br/"
+    location: Paraíso do Tocantins - TO
+    # company overview
+    overview: The IFTO is an institution of higher, basic and professional education, pluricurricular and multicampi (rector, campus, advanced campus and distance education centers), specialized in offering professional and technological education in different teaching modalities, based on the combination of technical and technological knowledge with their pedagogical/andragogic practices.
+  positions:
+  - designation: Senior Software Engineer
+    start: May 2017
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: Fev 2022
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Systems development using Java language.
+    # - Design and develop XYZ tool for ABC task
+    # - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
+    # - Lead backend team.
+
+- company:
+    name: SETAS - Secretaria de Trabalho e Assistência Social
+    url: "https://www.to.gov.br/setas"
+    location: Palmas-TO
+    overview: SETAS, a public administration body of the Executive Power created on December 22, 1995, directly and immediately assists the State Government of Tocantins in the performance of its duties to plan, coordinate, guide and execute the State Policy on Social Assistance, Solidarity Economy , Labor and Food Security, aiming at economic and social development.
   positions:
   - designation: Software Engineer
     start: March 2016
     end: May 2017
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - Systems development using Java language.
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: M2M Solutions S/A
+    url: "http://www.m2msolutions.com.br/"
+    location: Fortaleza, CE, Brasil
+    overview: M2M Solutions is a provider of Information Technology solutions for the management and optimization of transport operations, serving bus companies, government, unions and end users. Development of management systems for urban public transport, using geographic data.
   positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+  - designation: Software Engineer
+    start: May 2009
+    end: March 2013
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - Responsible for the realtime geographic metrics processing system.
+    - Technologies used - Java, Scala, Akka, GWT, GXT, Hibernate and Spring.    
+
+- company:
+    name: Pitang
+    url: "https://www.preexample.com"
+    location: Recife, PE, Brasil
+    overview: Founded in 2004, Pitang was the result of a spinoff from the Commercial Projects area of the C.E.S.A.R., one of the main innovation institutes in the country. We develop high quality services and solutions in Information and Communication Technology, focusing on market demands in an innovative way, through the development of exclusive projects that support the digital transformation of our customers using skills in Cognitive Computing, Digital Experience Platforms, Analytics , Cloud Computing, Mobile Apps, UX, Agility, DevOps and Testing.
+  positions:
+  - designation: Software Engineer
+    start: Jan 2009
+    end: May 2009
+    responsibilities:
+    - Systems development using Java language and Apache Wicket and Spring frameworks.
+    # - Read lots of examples.
+    # - See lots of example videos.
+
+- company:
+    name: Centro de Informática UFPE/Motorola
+    url: "https://portal.cin.ufpe.br/"
+    location: Fortaleza, CE, Brasil
+    overview: The UFPE Informatics Center is one of the most renowned centers for teaching and research in computing in Brazil and Latin America, training qualified professionals and excellence in Information and Communication Technology (ICT).
+  positions:
+  - designation: Software Engineer (trainee)
+    start: Jan 2008
+    end: Dez 2008
+    responsibilities:
+    - Automated test development for mobile devices.
+    # - Read lots of examples.
+    # - See lots of example videos.

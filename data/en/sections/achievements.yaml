@@ -10,15 +10,24 @@ section:
 
 # Your achievements achievements
 achievements:
-- title: Best Presenter
-  image: /images/sections/achievements/presenter.jpg
-  summary: Best presenter in the 2020 XYZ conference.
-- title: Champion
-  image: /images/sections/achievements/sport.jpg
-  summary: Champion in cycling inter-city cycling championship 2020.
-- title: Graduation
-  image: /images/sections/achievements/graduation-cap.jpg
-  summary: Received Bachelor of Science (B.Sc.) in Computer Science and Engineer from XYZ University.
-- title: Award Winner
-  image: /images/sections/achievements/woman-winner.jpg
-  summary: Wined best paper award at IEE Conference 2020.
+- title: Best Paper - CIbSE 2022
+  image: /images/sections/achievements/cibse2022.jpeg
+  summary: Best Paper - CIbSE 2022
+- title: Melhor Dissertação
+  image: /images/sections/achievements/cbsoftsoft21.png
+  summary: Melhor Dissertação 2021 - Terceiro Lugar.
+- title: Best Paper - SBES 2020
+  image: /images/sections/achievements/jnose.jpeg
+  summary: Best Paper SBES Tools Track 2020.
+- title: CBSOFT'19 - Web Chairs
+  image: /images/sections/achievements/cbsoft2.jpeg
+  summary: CBSOFT 2019 Web Chairs.
+- title: Master in Science Computer
+  image: /images/sections/achievements/defesa.jpg
+  summary: Approved as a Master in Science Computer.
+- title: Specialist in Agile Software Development
+  image: /images/sections/achievements/defesa_uni7.jpg
+  summary: Banking Defense in Agile Software Development Specialization.
+# - title: Graduation
+#   image: /images/sections/achievements/graduation-cap.jpg
+#   summary: Received Bachelor of Science (B.Sc.) in Computer Science from FACAPE University.

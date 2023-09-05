@@ -11,39 +11,46 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
+- name: Javascript/ECMAScript Teacher
+  logo: "/images/sections/skills/es.png"
+  summary: "Using the subjects I teach at IFTO, Data Structure, Development of Internet Systems and Web Applications."
+  url: "https://www.ecma-international.org/publications-and-standards/standards/ecma-262/"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
+- name: Java Development
+  logo: "/images/sections/skills/java.png"
   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
+  url: "https://www.java.com/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+- name: JavaServer Faces (JSF) 
+  logo: "/images/sections/skills/java.png"
+  summary: "Knowledge in project development. Able to write scalable, testable and sustainable web programs."
+  url: "https://www.oracle.com/java/technologies/javaserverfaces.html"
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  url: "https://www.docker.com/"
+- name: Hibernate 
+  logo: "/images/sections/skills/hibernate.jpg"
+  summary: "I've known since the first versions where the settings were in xml. I use it in my professional and personal projects."
+  url: "https://hibernate.org/"
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  url: "https://prometheus.io/"
+- name: Spring 
+  logo: "/images/sections/skills/spring.png"
+  summary: "The set of features that Spring provides us are immense, and it helps a lot for development. I use it in professional and personal projects, initially only injecting its dependencies, and depending on the project, other features."
+  url: "https://spring.io/"
+
+- name: Apache Wicket
+  logo: "/images/sections/skills/wicket.png"
+  summary: "A very easy-to-use web framework, component, I used it in a professional project and ended up liking it a lot, using it in other personal projects."
+  url: "https://wicket.apache.org/"
+
+- name: Scala Development
+  logo: "/images/sections/skills/scala.png"
+  summary: "Language enthusiast, I have already used it in a refactoring of a geographic metrics control system, the Language Actors system provided us with scaling in the system's responses."
+  url: "https://www.scala-lang.org/"
 
 - name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+  logo: "/images/sections/skills/linux.png"
+  summary: "I've been using linux for over 10 years as my working system, I'm not a Linux administrator, but an advanced user, I've been using Archlinux as my main distribution for 2 years now."
+  url: "https://www.scala-lang.org/"
 
-- name: Git
-  logo: /images/sections/skills/git.png
+- name: GIT
+  logo: "/images/sections/skills/git.png"
   summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
-
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."

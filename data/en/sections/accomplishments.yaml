@@ -9,38 +9,36 @@ section:
   # hideTitle: true
 
 
-# Your accomplishments
 accomplishments:
-- name: Linux Foundation System Administrator
-  timeline: "March 2018 - March 2019"
+- name: Scrum Fundamentals Certified (SFC)
+  timeline: "May 2019"
   organization:
-    name: Linux Foundation
-    url: https://www.linuxfoundation.org
-  courseOverview: This course helps to understand the key concepts such as networking, storage, security, maintenance, logging and monitoring, application lifecycle, troubleshooting, API object primitives etc. It also help to grow the ability to establish basic use-cases for end users.
-  certificateURL: "https://example.com"
+    name: SCRUMstudy
+    url: https://www.scrumstudy.com/
+  courseOverview: "The 'Scrum Fundamentals Certified' course is designed to help anyone interested in learning more about Scrum; learn about the main concepts of Scrum as defined in the SBOK® Guide; and gain a basic understanding of how the Scrum framework works in delivering successful projects. The objective of the 'Scrum Fundamentals Certified' exam is to confirm that you have a basic understanding of the Scrum framework."
+  certificateURL: "images/certificates/scrum.png"
 
-- name: Machine Learning
-  timeline: "Jun 2020 - Jan 2021"
+- name: TOEFL ITP (A2)
+  timeline: "August 2018"
   organization:
-    name: Coursera
-    url: https://www.coursera.org
-  courseOverview: "This course provides a broad introduction to machine learning, datamining, and statistical pattern recognition. Topics include: (i) Supervised learning (parametric/non-parametric algorithms, support vector machines, kernels, neural networks). (ii) Unsupervised learning (clustering, dimensionality reduction, recommender systems, deep learning). (iii) Best practices in machine learning (bias/variance theory; innovation process in machine learning and AI)."
-  certificateURL: "https://example.com"
+    name: UFBA
+    url: https://www.ufba.br/
+  courseOverview: "The TOEFL ITP test of English language proficiency is accepted by Universities around the world. In addition to being used by language schools and educational internationalization programs. Due to its academic nature, it can be used by students who want to monitor their evolution in the language and especially for those who will participate in academic exchange programs."
+  certificateURL: "images/certificates/toefl.png"
 
-- name: Grokking the System Design Interview
-  timeline: "Jan 2018 - Sept 2018"
+- name: Oracle Certified Professional, Java SE 6 Programmer
+  timeline: "October 2010"
   organization:
-    name: educative
-    url: https://www.educative.io
-  courseOverview: This course is a complete guide to master the SDIs. It is created by hiring managers who’ve been working at Google, Facebook, Microsoft, and Amazon. We've carefully chosen a set of questions that have not only been repeatedly asked at top companies, but also provide a thorough experience to handle any system design problem.
-  certificateURL: "https://example.com"
+    name: Oracle
+    url: https://www.credly.com/badges/01ab9868-42cf-4fa7-884e-0b0c453e6ce4/linked_in_profile
+  courseOverview: "An Oracle Certified Professional, Java SE 6 Programmer has experience using the Java programming language, understands the basic syntax and structure of the Java programming language and can create Java technology applications that run on server and desktop systems using J2SE 6.0."
+  certificateURL: "images/certificates/toefl.png"
 
-- name: Mastering Multithreading Programming with Go (Golang)
+- name: "Linux System Administration: Services for Internet - RNP"
   timeline: "Nov 2017 - Mar 2018"
   organization:
-    name: Udemy
-    url: https://www.udemy.com
-  courseOverview: Discover how to create responsive and high performance software. Develop programs with Golang that are highly Concurrent and Parallel. Improve your programming skills in Go with more advanced, mulithreading topics.
-  certificateURL: "https://example.com"
+    name: RNP
+    url: https://esr.rnp.br/cursos/administracao-de-sistemas-linux-servicos-para-internet-presencial/
+  courseOverview: "Install and configure LDAP and DNS services, and integrate with them other services such as Email, Web, SSL and additional services such as Proxy, DHCP, SSH and FTP. Also learn how to install and operate the integration with the Windows system through the Samba software. At an advanced level, the course presents forms of integrated authentication using the LDAP service, and through practical scenarios that facilitate the understanding of the concepts associated with each of the services studied."
+  certificateURL: "images/certificates/linux.png"
  
-
