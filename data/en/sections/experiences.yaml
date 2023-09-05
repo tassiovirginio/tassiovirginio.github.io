@@ -106,8 +106,8 @@ experiences:
     overview: The Faculty of Petrolina (FACAPE) was created in the form of a Municipal Autarchy with the name Educational Autarchy of the São Francisco Valley - AEVSF, by municipal law nº 25/76 of July 19, 1976.
   positions:
   - designation: Software Engineer (trainee)
-    start: Dez 2007
-    end: Jan 2005
+    start: Jan 2005
+    end: Dez 2007
     responsibilities:
     - Systems development using Java language and Apache Struts.
     # - Read lots of examples.
