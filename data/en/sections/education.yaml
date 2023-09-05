@@ -21,21 +21,21 @@ degrees:
     #achieved: 4
     #outOf: 5
   publications: #(optional)
-  - title: "An empirical evaluation of RAIDE: a semi-automated approach for test smells detection and refactoring - 2023"
+  - title: "An empirical evaluation of RAIDE: a semi-automated approach for test smells detection and refactoring - 2023 - A4 - Science of Computer Programming ISSN: 0167-6423"
     url: "https://www.sciencedirect.com/science/article/abs/pii/S0167642323000953"
-  - title: "Refactoring Assertion Roulette and Duplicate Assert test smells: a controlled experiment - 2022"
+  - title: "Refactoring Assertion Roulette and Duplicate Assert test smells: a controlled experiment - 2022 - B2 - CIbSE - Conferencia Iberoamericana de Software Engineering"
     url: "https://cibse2022.frc.utn.edu.ar/conferencia-principal-2/"
   - title: "Avaliação empírica da geração automatizada de testes desoftware sob a perspectiva de Test Smells - 2021"
     url: "https://sol.sbc.org.br/index.php/cbsoft_estendido/article/view/17292/17130"  
-  - title: "On the test smells detection: an empirical study on the JNose Test accuracy - 2021"
+  - title: "On the test smells detection: an empirical study on the JNose Test accuracy - 2021 - A4 - JOURNAL OF SOFTWARE ENGINEERING RESEARCH AND DEVELOPMENT"
     url: "https://sol.sbc.org.br/journals/index.php/jserd/article/view/1893"
-  - title: "JNose: Java Test Smell Detector - 2020"
+  - title: "JNose: Java Test Smell Detector - 2020 - A3 - Brazilian Symposium on Software Engineering"
     url: "https://dl.acm.org/doi/10.1145/3422392.3422499"
-  - title: "An empirical study of automatically-generated tests from the perspective of test smells - 2020"
+  - title: "An empirical study of automatically-generated tests from the perspective of test smells - 2020 - A3 - Brazilian Symposium on Software Engineering"
     url: "https://dl.acm.org/doi/10.1145/3422392.3422412"
-  - title: "RAIDE: a tool for Assertion Roulette and Duplicate Assert identification and refactoring  - 2020"
+  - title: "RAIDE: a tool for Assertion Roulette and Duplicate Assert identification and refactoring  - 2020 - A3 - Brazilian Symposium on Software Engineering"
     url: "https://dl.acm.org/doi/10.1145/3422392.3422510"
-  - title: "On the influence of Test Smells on Test Coverage - 2019"
+  - title: "On the influence of Test Smells on Test Coverage - 2019 - A3 - Brazilian Symposium on Software Engineering"
     url: "https://dl.acm.org/doi/10.1145/3350768.3350775"
 
 

@@ -21,25 +21,29 @@ buttons:
 
 # your publications
 publications:
-- title: An Example Paper on Machine Learning
+- title: "An empirical evaluation of RAIDE: a semi-automated approach for test smells detection and refactoring"
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: Science of Computer Programming
+    date: 2023
+    url: https://doi.org/10.1016/j.scico.2023.103013
   authors:
-  - name: Dr. Madman
+  - name: Railana Santana
     url: https://example.com
-  - name: Dr. Lessmad
+  - name: Luana Martins
     url: https://example.com
-  - name: Dr. Moremad
+  - name: Tássio Virgínio
     url: https://example.com
-  - name: Dr. Goodman
+  - name: Larissa Rocha
     url: https://example.com
+  - name: Heitor Costa
+    url: https://example.com
+  - name: Ivan Machado
+    url: https://example.com    
   paper:
-    summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
-    url: https://example.com
-  categories: ["machinelearning","image-processing"]
-  tags: ["Machine Learning", "Autonomous Driving", "Computer Vision"]
+    summary: The Applied Research in Software Engineering Laboratory (ARIES LAB) aims to conduct quality academic investigations that bring relevant contributions to the literature and to the software industry.
+    url: https://arieslab.github.io/
+  categories: ["testsmells","tests","smells"]
+  tags: ["Teste Smells", "Tests", "Smells"]
 
 - title: An Sample Paper on Image Processing
   publishedIn:
