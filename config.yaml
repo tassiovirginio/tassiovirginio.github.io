@@ -64,7 +64,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/tassiovirginio/tassiovirginio.github.io
+  gitRepo: git@github.com:tassiovirginio/tassiovirginio.github.io.git
   # Default branch of your Git repo
   gitBranch: main
 
