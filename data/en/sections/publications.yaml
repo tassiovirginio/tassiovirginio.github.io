@@ -12,12 +12,12 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: "Machine Learning"
-  filter: "machinelearning"
-- name: "Image Processing"
-  filter: "image-processing"
-- name: Security
-  filter: "security"
+- name: "Test Smells"
+  filter: "testsmells"
+- name: "Unit Tests"
+  filter: "unittest"
+- name: "Controlled Experiment"
+  filter: "controlled_experiment"
 
 # your publications
 publications:
