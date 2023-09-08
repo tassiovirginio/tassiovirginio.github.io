@@ -45,42 +45,166 @@ publications:
   categories: ["testsmells","tests","smells"]
   tags: ["Teste Smells", "Tests", "Smells"]
 
-- title: An Sample Paper on Image Processing
+- title: "Refactoring Assertion Roulette and Duplicate Assert test smells: a controlled experiment - 2022 - B2 - CIbSE - Conferencia Iberoamericana de Software Engineering"
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: Iberoamerican Conference on Software Engineering (CIbSE)
+    date: 2023
+    url: https://cibse2022.frc.utn.edu.ar/conferencia-principal-2/
   authors:
-  - name: Dr. Madman
+  - name: Railana Santana (UFBA)
     url: https://example.com
-  - name: Dr. Lessmad
+  - name: Luana Martins (UFBA)
     url: https://example.com
-  - name: Dr. Moremad
+  - name: Tássio Virgínio (IFTO)
+    url: https://tassiovirginio.github.io
+  - name: Larissa Soares (UFBA)
     url: https://example.com
-  - name: Dr. Goodman
+  - name: Heitor Costa (UFLA)
+    url: https://example.com
+  - name: Ivan Machado (UFBA)
     url: https://example.com
   paper:
-    summary: Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit sunt. Magna proident ullamco adipisicing sit.
-    url: https://example.com
-  categories: ["image-processing"]
-  tags: ["Image Processing", "Computer Vision"]
+    summary: "Test smells can reduce the developers' ability to interact with the test code. Refactoring test code offers a safe strategy to handle test smells. However, the manual refactoring activity is not a trivial process, and it is often tedious and error-prone. This study aims to evaluate RAIDE, a tool for automatic identification and refactoring of test smells. We present an empirical assessment of RAIDE, in which we analyzed its capability at refactoring Assertion Roulette and Duplicate Assert test smells and compared the results against both manual refactoring and a state-of-the-art approach. The results show that RAIDE provides a faster and more intuitive approach for handling test smells than using an automated tool for smells detection combined with manual refactoring"
+    url: https://sol.sbc.org.br/index.php/cibse/article/view/20977
+  categories: ["Test Smells"]
+  tags: ["Test Smells", "Unit Tests", "Controlled Experiment"]
 
-- title: An Example Paper on Security
+- title: "Avaliação empírica da geração automatizada de testes desoftware sob a perspectiva de Test Smells - 2021"
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: "ANAIS ESTENDIDOS DO CONGRESSO BRASILEIRO DE SOFTWARE: TEORIA E PRÁTICA (CBSOFT)"
+    date: 27/09/2021
+    url: https://sol.sbc.org.br/index.php/cbsoft_estendido/article/view/17292
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: Tássio Guerreiro Antunes Virgínio
+    url: https://tassiovirginio.github.io
   paper:
-    summary: Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint deserunt cupidatat irure minim consectetur nulla adipisicing sunt.
-    url: https://example.com
-  categories: ["security"]
-  tags: ["Machine Learning", "Autonomous Driving", "Machine Vision"]
+    summary: O teste de software é uma atividade-chave para o desenvolvimento de software de qualidade, sendo tão ou mais custoso do que o desenvolvimento do código de produção. De modo a reduzir os custos de projetos de software, o uso de ferramentas de geração automatizada de testes, tais como Randoop e Evosuite tem sido fortemente encorajado. No entanto, é necessário obter evidências sobre como o uso dessas ferramentas afeta a qualidade dos testes. Neste sentido, o presente estudo apresenta uma avaliação empírica da qualidade de testes gerados automaticamente, sob a perspectiva de test smells. O estudo contemplou o desenvolvimento de uma ferramenta open source de coleta e análise automatizada de test smells, a JNose Test, no desenvolvimento da ferramenta foi realizado estudo utilizando 11 projetos open source para verificar a relação entre test smells e a cobertura dos testes, e posteriormente no segundo estudo que avaliou a qualidade de testes gerados automaticamente para 21 projetos open source. No primeiro estudo encontramos relações fortes entre métricas de cobertura e test smells, e no segundo estudo os resultados indicam uma alta difusão dos test smells e co-ocorrências entre diferentes tipos de test smells nos projetos avaliados. Além disso, foi identificada uma alta difusão de test smells nos códigos de teste gerados pelas ferramentas Evosuite e Randoop que, frequentemente, estão correlacionados.
+    url: https://sol.sbc.org.br/index.php/cbsoft_estendido/article/view/17292
+  categories: ["Test Smells"]
+  tags: ["Test Smells", "Unit Tests", "Controlled Experiment"]
+
+- title: "On the test smells detection: an empirical study on the JNose Test accuracy - 2021 - A4"
+  publishedIn:
+    name: "JOURNAL OF SOFTWARE ENGINEERING RESEARCH AND DEVELOPMENT"
+    date: 08/09/2021
+    url: https://sol.sbc.org.br/journals/index.php/jserd/article/view/1893
+  authors:
+  - name: Tássio Virgínio (IFTO)
+    url: https://orcid.org/0000-0001-6259-4957
+  - name: Luana Martins (UFBA)
+    url: https://orcid.org/0000-0001-6340-7615
+  - name: Railana Santana (UFBA)
+    url: https://orcid.org/0000-0002-1153-8960
+  - name: Adriana Cruz (UFLA)
+    url: https://orcid.org/0000-0001-5196-6356
+  - name: Larissa Rocha (UFBA)
+    url: https://orcid.org/0000-0002-8069-5249
+  - name: Heitor Costa (UFLA)
+    url: https://orcid.org/0000-0002-9903-7414
+  - name: Ivan Machado (UFBA)
+    url: https://orcid.org/0000-0001-9027-2293
+  paper:
+    summary: "Several strategies have supported test quality measurement and analysis. For example, code coverage, a widely used one, enables verification of the test case to cover as many source code branches as possible. Another set of affordable strategies to evaluate the test code quality exists, such as test smells analysis. Test smells are poor design choices in test code implementation, and their occurrence might reduce the test suite quality. A practical and largescale test smells identification depends on automated tool support. Otherwise, test smells analysis could become a cost-ineffective strategy. In an earlier study, we proposed the JNose Test, automated tool support to detect test smells and analyze test suite quality from the test smells perspective. This study extends the previous one in two directions: i) we implemented the JNose-Core, an API encompassing the test smells detection rules. Through an extensible architecture, the tool is now capable of accomodating new detection rules or programming languages; and ii) we performed an empirical study to evaluate the JNose Test effectiveness and compare it against the state-of-the-art tool, the tsDetect. Results showed that the JNose-Core precision score ranges from 91% to 100%, and the recall score from 89% to 100%. It also presented a slight improvement in the test smells detection rules compared to the tsDetect for the test smells detection at the class level."
+    url: https://doi.org/10.5753/jserd.2021.1893
+  categories: ["Test Smells"]
+  tags: ["Test Smells", "Unit Tests", "Controlled Experiment"]
+
+- title: "JNose: Java Test Smell Detector - 2020 - A3"
+  publishedIn:
+    name: "Brazilian Symposium on Software Engineering"
+    date: 21 December 2020
+    url: https://dl.acm.org/doi/10.1145/3422392.3422499
+  authors:
+  - name: Tássio Virgínio (IFTO)
+    url: https://orcid.org/0000-0001-6259-4957
+  - name: Luana Martins (UFBA)
+    url: https://orcid.org/0000-0001-6340-7615
+  - name: Railana Santana (UFBA)
+    url: https://orcid.org/0000-0002-1153-8960
+  - name: Adriana Cruz (UFLA)
+    url: https://orcid.org/0000-0001-5196-6356
+  - name: Larissa Rocha (UFBA)
+    url: https://orcid.org/0000-0002-8069-5249
+  - name: Heitor Costa (UFLA)
+    url: https://orcid.org/0000-0002-9903-7414
+  - name: Ivan Machado (UFBA)
+    url: https://orcid.org/0000-0001-9027-2293
+  paper:
+    summary: "Several strategies have been proposed for test quality measurement and analysis. Code coverage is likely the most widely used one. It enables to verify the ability of a test case to cover as many source code branches as possible. Although code coverage has been widely used, novel strategies have been recently employed. It is the case of test smells analysis, which has been introduced as an affordable strategy to evaluate the quality of test code. Test smells are poor design choices in implementation, and their occurrence in test code might reduce the quality of test suites. Test smells identification is clearly dependent on tool support, otherwise it could become a cost-ineffective strategy. However, as far as we know, there is no tool that combines code coverage and test smells to address test quality measurement. In this work, we present the JNose Test, a tool aimed to analyze test suite quality in the perspective of test smells. JNose Test detects code coverage and software evolution metrics and a set of test smells throughout software versions."
+    url: https://doi.org/10.1145/3422392.3422499
+  categories: ["Test Smells"]
+  tags: ["Test Smells", "Unit Tests", "Controlled Experiment"]
+
+  - title: "An empirical study of automatically-generated tests from the perspective of test smells - 2020 - A3"
+  publishedIn:
+    name: "SBES '20: Proceedings of the XXXIV Brazilian Symposium on Software Engineering"
+    date: 21 December 2020
+    url: https://doi.org/10.1145/3422392.3422412
+  authors:
+  - name: Tássio Virgínio (IFTO)
+    url: https://orcid.org/0000-0001-6259-4957
+  - name: Luana Martins (UFBA)
+    url: https://orcid.org/0000-0001-6340-7615
+  - name: Railana Santana (UFBA)
+    url: https://orcid.org/0000-0002-1153-8960
+  - name: Larissa Rocha (UFBA)
+    url: https://orcid.org/0000-0002-8069-5249
+  - name: Heitor Costa (UFLA)
+    url: https://orcid.org/0000-0002-9903-7414
+  - name: Ivan Machado (UFBA)
+    url: https://orcid.org/0000-0001-9027-2293
+  paper:
+    summary: "Developing test code can be as or more expensive than developing production code. Commonly, developers use automated unit test generators to speed up software testing. The purpose of such tools is to shorten production time without decreasing code quality. Nonetheless, unit tests usually do not have a quality check layer above testing code, which might be hard to guarantee the quality of the generated tests. A strategy to verify the tests quality is to analyze the presence of test smells in test code. Test smells are characteristics in the test code that possibly indicate weaknesses in test design and implementation. Their presence could be used as a quality indicator. In this paper, we present an empirical study to analyze the quality of unit test code generated by automated test tools. We compare the tests generated by two tools (Randoop and Evo- Suite) with the existing unit test suite of twenty-one open-source Java projects. We analyze the unit test code to detect the presence of nineteen types of test smells. The results indicated significant differences in the unit test quality when comparing data from the automated unit test generators and existing unit test suites."
+    url: https://doi.org/10.1145/3422392.3422412
+  categories: ["Test Smells"]
+  tags: ["Test Smells", "Unit Tests", "Controlled Experiment"]
+
+  - title: "RAIDE: a tool for Assertion Roulette and Duplicate Assert identification and refactoring  - 2020 - A3"
+  publishedIn:
+    name: "SBES '20: Proceedings of the XXXIV Brazilian Symposium on Software Engineering"
+    date: 21 December 2020
+    url: https://doi.org/10.1145/3422392.3422510
+  authors:
+  - name: Railana Santana (UFBA)
+    url: https://orcid.org/0000-0002-1153-8960
+  - name: Luana Martins (UFBA)
+    url: https://orcid.org/0000-0001-6340-7615
+  - name: Larissa Rocha (UFBA)
+    url: https://orcid.org/0000-0002-8069-5249
+  - name: Tássio Virgínio (IFTO)
+    url: https://orcid.org/0000-0001-6259-4957
+  - name: Adriana Cruz (UFLA)
+    url: https://orcid.org/0000-0001-5196-6356
+  - name: Heitor Costa (UFLA)
+    url: https://orcid.org/0000-0002-9903-7414
+  - name: Ivan Machado (UFBA)
+    url: https://orcid.org/0000-0001-9027-2293
+  paper:
+    summary: "Test smells are fragments of code that can affect the comprehensibility and the maintainability of the test code. Preventing, detecting, and correcting test smells are tasks that may require a lot of effort, and might not scale to large-sized projects when carried out manually. Currently, there are many tools available to support test smells detection. However, they usually do not provide neither a user-friendly interface nor automated support for refactoring the test code to remove test smells. In this work, we propose RAIDE, an open-source and IDE-integrated tool. RAIDE assists testers with an environment for automated detection of lines of code affected by test smells, as well as a semi-automated refactoring for Java projects using the JUnit framework."
+    url: https://doi.org/10.1145/3422392.3422510
+  categories: ["Test Smells"]
+  tags: ["Test Smells", "Unit Tests", "Controlled Experiment"]
+
+  - title: "On the influence of Test Smells on Test Coverage - 2019 - A3"
+  publishedIn:
+    name: "SBES '20: Proceedings of the XXXIV Brazilian Symposium on Software Engineering"
+    date: 21 December 2020
+    url: https://dl.acm.org/doi/10.1145/3350768.3350775
+  authors:
+  - name: Tássio Virgínio (IFTO)
+    url: https://orcid.org/0000-0001-6259-4957
+  - name: Railana Santana (UFBA)
+    url: https://orcid.org/0000-0002-1153-8960
+  - name: Luana Martins (UFBA)
+    url: https://orcid.org/0000-0001-6340-7615
+  - name: Larissa Rocha (UFBA)
+    url: https://orcid.org/0000-0002-8069-5249
+  - name: Heitor Costa (UFLA)
+    url: https://orcid.org/0000-0002-9903-7414
+  - name: Ivan Machado (UFBA)
+    url: https://orcid.org/0000-0001-9027-2293
+  paper:
+    summary: "Software testing is a key practice in the software quality assurance process. Usually, the quality of a test is not analyzed before its execution, i.e., there are no tests to check the tests. When the quality of tests is not guaranteed, it may impair the quality of the software. Test Smells are an alternative to indicate problems in the test code that can affect test maintainability, more specifically readability and comprehension. This study investigates correlations between test coverage and test smells types. We also introduce the JNose Test, a tool to automate test smells detection. We analyzed 11 open source projects and detected 21 types of smells and 10 different test coverage metrics to each test class. We identified 63 out of 210 calculated correlations. Our results show that there is a relationship between test smells and test coverage, in which test smells may influence code coverage. Our findings might support software testers and help them understand the behavior and consequences of poorly written and designed tests."
+    url: https://doi.org/10.1145/3350768.3350775
+  categories: ["Test Smells"]
+  tags: ["Test Smells", "Unit Tests", "Controlled Experiment"]
