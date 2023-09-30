@@ -41,7 +41,7 @@ socialLinks:
   url: "https://www.linkedin.com/in/tassiovirginio/"
 
 - name: X
-  icon: "fab fa-x-twitter"
+  icon: "fab fa-twitter"
   url: "https://x.com/msc_tassio"
 
 - name: Facebook
@@ -49,7 +49,7 @@ socialLinks:
   url: "https://www.facebook.com/tassiovirginio"
 
 - name: Lattes
-  icon: "fab fa-id-badge"
+  icon: "fab fa-user"
   url: "http://lattes.cnpq.br/0517470966104640"
 
 # You can put custom buttons to link your relevant resources.
