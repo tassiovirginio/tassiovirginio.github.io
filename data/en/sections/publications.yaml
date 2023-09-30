@@ -3,7 +3,7 @@ section:
   name: Publications
   id: publications
   enable: true
-  weight: 6
+  weight: 7
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -18,6 +18,8 @@ buttons:
   filter: "unittest"
 - name: "Controlled Experiment"
   filter: "controlled_experiment"
+- name: "Data Mining"
+  filter: "data_mining"
 
 # your publications
 publications:
