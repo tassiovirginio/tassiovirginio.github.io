@@ -213,7 +213,7 @@ publications:
   categories: ["Test Smells"]
   tags: ["Test Smells", "Unit Tests", "Controlled Experiment"]
 
-  - title: "Association of Social Data - A2"
+- title: "Association of Social Data - A2"
   publishedIn:
     name: "GLOBAL JOURNAL OF HUMAN SOCIAL SCIENCES Vol.14 Issue.10 - ISSN-0975-587X"
     date: 2014
