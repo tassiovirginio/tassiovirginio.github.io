@@ -41,22 +41,21 @@ socialLinks:
   url: "https://www.linkedin.com/in/tassiovirginio/"
 
 - name: X
-  icon: "fab fa-twitter"
-  url: "https://twitter.com/msc_tassio"
+  icon: "fab fa-x-twitter"
+  url: "https://x.com/msc_tassio"
 
 - name: Facebook
   icon: "fab fa-facebook"
   url: "https://www.facebook.com/tassiovirginio"
 
-- name: Mastadon
-  icon: "fab fa-mastodon"
-  url: "#"
-  rel: "me noopener"
+- name: Lattes
+  icon: "fab fa-id-badge"
+  url: "http://lattes.cnpq.br/0517470966104640"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
-- title: "My Resume"
+- title: "Curriculum"
   url: "files/resume.pdf"
 
 # Show your badges
