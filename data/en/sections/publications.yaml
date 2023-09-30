@@ -210,3 +210,25 @@ publications:
     url: https://doi.org/10.1145/3350768.3350775
   categories: ["Test Smells"]
   tags: ["Test Smells", "Unit Tests", "Controlled Experiment"]
+
+  - title: "Association of Social Data - A2"
+  publishedIn:
+    name: "GLOBAL JOURNAL OF HUMAN SOCIAL SCIENCES Vol.14 Issue.10 - ISSN-0975-587X"
+    date: 2014
+    url: https://globaljournals.org/GJHSS_Volume14/6-Association-of-Social-Data.pdf
+  authors:
+  - name: Diego C. Rodrigues (IFTO)
+    url: https://orcid.org/
+  - name: Marcelo Rocha Lisbon (IFTO)
+    url: https://orcid.org/
+  - name:  Jucelino Santos (IFTO)
+    url: https://orcid.org/
+  - name: Tássio Virginio  (IFTO)
+    url: https://orcid.org/0000-0001-6259-4957
+  - name: Wilmar Borges (IFTO)
+    url: https://orcid.org/
+  paper:
+    summary: "According to the ILO (International Labour Organisation) about 218 million children between 5 and 17 years working in the world, of which 50% have jobs at risk. On the basis of this information, arising questions on how to understand and find the factors that comprise the ratings of child labour, and which properties are important to analyze these cases.With the use of data mining techniques to find valid patterns on Brazilian social databases were evaluated data of child labour in the State of Tocantins (located north of Brazil with a territory of 277 thousand and composed of 139 cities).This work aims to identify factors that are deterministic to the practice of child labour and their relationships with financial indicators, educational, social, and regional generating information that are not explicit in the Government database, thus enabling a better monitoring and updating policies to that end."
+    url: https://globaljournals.org/GJHSS_Volume14/6-Association-of-Social-Data.pdf
+  categories: ["Data Mining"]
+  tags: ["Data Mining", "Social Data", "Child Labor"]
