@@ -1,0 +1,100 @@
+# section information
+section:
+  name: Sobre
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Professor
+# your company information
+company:
+  name: IFTO - Campus Dianópolis
+  url: "http://www.ifto.edu.br/dianopolis"
+
+# your resume. this file path should be relative to you "static" directory
+# Dreprecated. Use resourceLinks instead.
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'Sou professor e engenheiro de software apaixonado com 14 anos de experiência profissional. Atualmente trabalho com JSF, JPA e EJB. Apoiar o sistema SIGA EPTC utilizado em todo o Instituto Federal do Tocantins.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "tassiovirginio@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/tassiovirginio"
+
+- name: Stackoverflow
+  icon: "fab fa-stack-overflow"
+  url: "https://stackoverflow.com/users/2021511/tassiovirginio"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/tassiovirginio/"
+
+- name: X
+  icon: "fab fa-twitter"
+  url: "https://x.com/msc_tassio"
+
+- name: Facebook
+  icon: "fab fa-facebook"
+  url: "https://www.facebook.com/tassiovirginio"
+
+- name: Lattes
+  icon: "fab fa-user"
+  url: "http://lattes.cnpq.br/0517470966104640"
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+resourceLinks:
+- title: "Curriculum"
+  url: "files/resume.pdf"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: certification
+  name: Oracle Certified Professional Java SE 6 Programmer
+  # url: "https://education.oracle.com/oracle-certified-professional-java-se-6-programmer/trackp_357"
+  badge: "http://images.credly.com/images/8271b3d7-090a-42ec-9b84-d4f845698abd/Oracle-Certification-badge_OC-Professional600X600.png"
+
+- type: certification
+  name: Scrum Fundamentals Certified
+  # url: "https://www.scrumstudy.com/portuguese/scrum-fundamentals-certified"
+  badge: "https://scrumevolution.com/wp-content/uploads/2022/12/SMC-512.png"
+
+- type: certification
+  name: 
+  # url: "https://www.scrumstudy.com/portuguese/scrum-fundamentals-certified"
+  badge: ""
+
+
+- type: soft-skill-indicator
+  name: Leadership
+  percentage: 85
+  color: blue
+
+- type: soft-skill-indicator
+  name: Team Work
+  percentage: 90
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Hard Working
+  percentage: 85
+  color: orange
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"

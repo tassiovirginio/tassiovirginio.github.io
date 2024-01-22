@@ -1,0 +1,56 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Javascript/ECMAScript Teacher
+  logo: "/images/sections/skills/es.png"
+  summary: "Utilizando as disciplinas que leciono no IFTO, Estrutura de Dados, Desenvolvimento de Sistemas para Internet e Aplicações Web."
+  url: "https://www.ecma-international.org/publications-and-standards/standards/ecma-262/"
+
+- name: Java Development
+  logo: "/images/sections/skills/java.png"
+  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+  url: "https://www.java.com/"
+
+- name: JavaServer Faces (JSF) 
+  logo: "/images/sections/skills/java.png"
+  summary: "Knowledge in project development. Able to write scalable, testable and sustainable web programs."
+  url: "https://www.oracle.com/java/technologies/javaserverfaces.html"
+
+- name: Hibernate 
+  logo: "/images/sections/skills/hibernate.jpg"
+  summary: "I've known since the first versions where the settings were in xml. I use it in my professional and personal projects."
+  url: "https://hibernate.org/"
+
+- name: Spring 
+  logo: "/images/sections/skills/spring.png"
+  summary: "The set of features that Spring provides us are immense, and it helps a lot for development. I use it in professional and personal projects, initially only injecting its dependencies, and depending on the project, other features."
+  url: "https://spring.io/"
+
+- name: Apache Wicket
+  logo: "/images/sections/skills/wicket.png"
+  summary: "A very easy-to-use web framework, component, I used it in a professional project and ended up liking it a lot, using it in other personal projects."
+  url: "https://wicket.apache.org/"
+
+- name: Scala Development
+  logo: "/images/sections/skills/scala.png"
+  summary: "Language enthusiast, I have already used it in a refactoring of a geographic metrics control system, the Language Actors system provided us with scaling in the system's responses."
+  url: "https://www.scala-lang.org/"
+
+- name: Linux
+  logo: "/images/sections/skills/linux.png"
+  summary: "I've been using linux for over 10 years as my working system, I'm not a Linux administrator, but an advanced user, I've been using Archlinux as my main distribution for 2 years now."
+  url: "https://www.scala-lang.org/"
+
+- name: GIT
+  logo: "/images/sections/skills/git.png"
+  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
