@@ -105,7 +105,7 @@ degrees:
   icon: fa-university
   timeframe: 2002-2007
   institution:
-    name:Faculdade de Ciências Aplicadas e Sociais de Petrolina - FACAPE
+    name: Faculdade de Ciências Aplicadas e Sociais de Petrolina - FACAPE
     url: "http://www.facape.br/"
   # grade: #(optional)
   #   scale: CAPES
