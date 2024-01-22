@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Experiências
+  name: Experiência
   id: experiences
   enable: true
   weight: 3
@@ -15,7 +15,7 @@ experiences:
     url: "http://www.ifto.edu.br/"
     location: Dianópolis - TO
     # company overview
-    overview: The IFTO is an institution of higher, basic and professional education, pluricurricular and multicampi (rector, campus, advanced campus and distance education centers), specialized in offering professional and technological education in different teaching modalities, based on the combination of technical and technological knowledge with their pedagogical/andragogic practices.
+    overview: O IFTO é uma instituição de ensino superior, básico e profissional, pluricurricular e multicampi (reitoria, campus, campus avançado e centros de educação a distância), especializada em oferecer educação profissional e tecnológica em diversas modalidades de ensino, a partir da combinação de conhecimentos técnicos e tecnológicos. com suas práticas pedagógicas/andragógicas.
   positions:
   - designation: EBTT Teacher
     start: Fev 2022
@@ -33,7 +33,7 @@ experiences:
     url: "http://www.ifto.edu.br/"
     location: Dianópolis-TO / Paraíso do Tocantins-TO
     # company overview
-    overview: The IFTO is an institution of higher, basic and professional education, pluricurricular and multicampi (rector, campus, advanced campus and distance education centers), specialized in offering professional and technological education in different teaching modalities, based on the combination of technical and technological knowledge with their pedagogical/andragogic practices.
+    overview: O IFTO é uma instituição de ensino superior, básico e profissional, pluricurricular e multicampi (reitoria, campus, campus avançado e centros de educação a distância), especializada em oferecer educação profissional e tecnológica em diversas modalidades de ensino, a partir da combinação de conhecimentos técnicos e tecnológicos. com suas práticas pedagógicas/andragógicas.
   positions:
   - designation: Information Technology Technician/Senior Software Engineer
     start: Aug 2014
@@ -50,7 +50,7 @@ experiences:
     name: SETAS - Secretaria de Trabalho e Assistência Social
     url: "https://www.to.gov.br/setas"
     location: Palmas-TO
-    overview: SETAS, a public administration body of the Executive Power created on December 22, 1995, directly and immediately assists the State Government of Tocantins in the performance of its duties to plan, coordinate, guide and execute the State Policy on Social Assistance, Solidarity Economy , Labor and Food Security, aiming at economic and social development.
+    overview: A SETAS, órgão da administração pública do Poder Executivo criado em 22 de dezembro de 1995, auxilia direta e imediatamente o Governo do Estado do Tocantins no desempenho de suas atribuições de planejar, coordenar, orientar e executar a Política Estadual de Assistência Social, Economia Solidária, Segurança Laboral e Alimentar, visando o desenvolvimento económico e social.
   positions:
   - designation: Software Engineer
     start: March 2013
@@ -62,7 +62,7 @@ experiences:
     name: M2M Solutions S/A
     url: "http://www.m2msolutions.com.br/index.html"
     location: Fortaleza, CE, Brasil
-    overview: M2M Solutions is a provider of Information Technology solutions for the management and optimization of transport operations, serving bus companies, government, unions and end users. Development of management systems for urban public transport, using geographic data.
+    overview: A M2M Solutions é uma fornecedora de soluções de Tecnologia da Informação para gestão e otimização de transport operations, serving bus companies government, unions and end users. Development de sistemas de gestão de transporte público urbano, utilizando dados geográficos.
   positions:
   - designation: Software Engineer
     start: Jul 2009
@@ -75,7 +75,8 @@ experiences:
     name: Pitang
     url: "https://www.pitang.com/"
     location: Recife, PE, Brasil
-    overview: Founded in 2004, Pitang was the result of a spinoff from the Commercial Projects area of the C.E.S.A.R., one of the main innovation institutes in the country. We develop high quality services and solutions in Information and Communication Technology, focusing on market demands in an innovative way, through the development of exclusive projects that support the digital transformation of our customers using skills in Cognitive Computing, Digital Experience Platforms, Analytics , Cloud Computing, Mobile Apps, UX, Agility, DevOps and Testing.
+    overview: 
+Fundada em 2004, a Pitang foi resultado de uma cisão da área de Projetos Comerciais do C.E.S.A.R., um dos principais institutos de inovação do país. Desenvolvemos serviços e soluções de alta qualidade em Tecnologia da Informação e Comunicação, focando nas demandas do mercado de forma inovadora, através do desenvolvimento de projetos exclusivos que apoiam a transformação digital de nossos clientes utilizando competências em Computação Cognitiva, Plataformas de Experiência Digital, Analytics, Cloud Computing , Aplicativos Móveis, UX, Agilidade, DevOps e Testes.
   positions:
   - designation: Software Engineer
     start: Jan 2009
@@ -88,8 +89,8 @@ experiences:
 - company:
     name: Centro de Informática UFPE/Motorola
     url: "https://portal.cin.ufpe.br/"
-    location: Fortaleza, CE, Brasil
-    overview: The UFPE Informatics Center is one of the most renowned centers for teaching and research in computing in Brazil and Latin America, training qualified professionals and excellence in Information and Communication Technology (ICT).
+    location: Recife, PE, Brasil
+    overview: O Centro de Informática da UFPE é um dos mais renomados centros de ensino e pesquisa em computação do Brasil e da América Latina, formando profissionais qualificados e de excelência em Tecnologia da Informação e Comunicação (TIC).
   positions:
   - designation: Software Engineer (trainee)
     start: Jan 2008
@@ -103,7 +104,7 @@ experiences:
     name: FACAPE
     url: "http://facape.br/"
     location: Petrolina, PE, Brasil
-    overview: The Faculty of Petrolina (FACAPE) was created in the form of a Municipal Autarchy with the name Educational Autarchy of the São Francisco Valley - AEVSF, by municipal law nº 25/76 of July 19, 1976.
+    overview: A Faculdade de Petrolina (FACAPE) foi criada na forma de Autarquia Municipal com a denominação de Autarquia Educacional do Vale do São Francisco -AEVSF, pela lei municipal nº 25/76 de 19 de julho de 1976.
   positions:
   - designation: Software Engineer (trainee)
     start: Jan 2005

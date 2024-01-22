@@ -39,11 +39,11 @@ degrees:
     url: "https://dl.acm.org/doi/10.1145/3350768.3350775"
 
 
-- name: Specialization in Agile Software Development
+- name: Especialização em Desenvolvimento Ágil de Software
   icon: fa-university
   timeframe: 2011-2013
   institution:
-    name: University Center 7 September 7th, UNI7
+    name: Centro Universitário 7 de Setembro, UNI7
     url: "https://www.uni7.edu.br/"
   # grade: #(optional)
   #   scale: CAPES
@@ -76,11 +76,11 @@ degrees:
   # - Duis sed massa feugiat, ornare justo et, aliquam est.
   # - Pellentesque ut fringilla magna.
 
-- name: Specialization in Test Analysis
+- name: Especialização em Análise de Testes
   icon: fa-university
   timeframe: 2008-2008
   institution:
-    name: Federal University of Pernambuco - CIn/UFPE
+    name: Universidade Federal de Pernambuco - CIn/UFPE
     url: "https://portal.cin.ufpe.br/"
   # grade: #(optional)
   #   scale: CAPES
@@ -101,11 +101,11 @@ degrees:
 #     achieved: 4.5
 #     outOf: 5
 
-- name: Graduation in Computer Science.
+- name: Graduação em Ciência da Computação
   icon: fa-university
   timeframe: 2002-2007
   institution:
-    name: Petrolina Faculty of Applied and Social Sciences - FACAPE
+    name:Faculdade de Ciências Aplicadas e Sociais de Petrolina - FACAPE
     url: "http://www.facape.br/"
   # grade: #(optional)
   #   scale: CAPES

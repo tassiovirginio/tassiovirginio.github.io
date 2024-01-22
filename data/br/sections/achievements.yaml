@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Achievements
+  name: Conquistas
   id: achievements
   enable: true
   weight: 7

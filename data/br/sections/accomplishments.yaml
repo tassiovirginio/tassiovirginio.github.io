@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Accomplishments
+  name: Conquistas
   id: accomplishments
   enable: true
   weight: 8
@@ -15,7 +15,7 @@ accomplishments:
   organization:
     name: SCRUMstudy
     url: https://www.scrumstudy.com/
-  courseOverview: "The 'Scrum Fundamentals Certified' course is designed to help anyone interested in learning more about Scrum; learn about the main concepts of Scrum as defined in the SBOK® Guide; and gain a basic understanding of how the Scrum framework works in delivering successful projects. The objective of the 'Scrum Fundamentals Certified' exam is to confirm that you have a basic understanding of the Scrum framework."
+  courseOverview: "O curso 'Scrum Fundamentals Certified' foi desenvolvido para ajudar qualquer pessoa interessada em aprender mais sobre Scrum; conhecer os principais conceitos do Scrum definidos no Guia SBOK®; e obter uma compreensão básica de como a estrutura Scrum funciona na entrega de projetos bem-sucedidos. O objetivo do exame 'Scrum Fundamentals Certified' é confirmar se você tem um conhecimento básico da estrutura Scrum."
   #certificateURL: "https://drive.google.com/file/d/149nO_B5Gcfzcpf-EQhle9ZakKp4235l5/view"
 
 - name: TOEFL ITP (A2)
@@ -23,7 +23,7 @@ accomplishments:
   organization:
     name: UFBA
     url: https://www.ufba.br/
-  courseOverview: "The TOEFL ITP test of English language proficiency is accepted by Universities around the world. In addition to being used by language schools and educational internationalization programs. Due to its academic nature, it can be used by students who want to monitor their evolution in the language and especially for those who will participate in academic exchange programs."
+  courseOverview: "O teste TOEFL ITP de proficiência na língua inglesa é aceito por universidades de todo o mundo. Além de ser utilizado por escolas de idiomas e programas de internacionalização educacional. Devido ao seu caráter acadêmico, pode ser utilizado por estudantes que desejam acompanhar sua evolução no idioma e principalmente para aqueles que irão participar de programas de intercâmbio acadêmico."
   #certificateURL: "images/certificates/toefl.png"
 
 - name: Oracle Certified Professional, Java SE 6 Programmer
@@ -31,7 +31,7 @@ accomplishments:
   organization:
     name: Oracle
     url: https://www.credly.com/badges/01ab9868-42cf-4fa7-884e-0b0c453e6ce4/linked_in_profile
-  courseOverview: "An Oracle Certified Professional, Java SE 6 Programmer has experience using the Java programming language, understands the basic syntax and structure of the Java programming language and can create Java technology applications that run on server and desktop systems using J2SE 6.0."
+  courseOverview: "Um Oracle Certified Professional, Java SE 6 Programmer tem experiência no uso da linguagem de programação Java, entende a sintaxe básica e a estrutura da linguagem de programação Java e pode criar aplicativos de tecnologia Java que são executados em sistemas de servidor e desktop usando J2SE 6.0."
   #certificateURL: "images/certificates/toefl.png"
 
 - name: "Linux System Administration: Services for Internet - RNP"
@@ -39,6 +39,6 @@ accomplishments:
   organization:
     name: RNP
     url: https://esr.rnp.br/cursos/administracao-de-sistemas-linux-servicos-para-internet-presencial/
-  courseOverview: "Install and configure LDAP and DNS services, and integrate with them other services such as Email, Web, SSL and additional services such as Proxy, DHCP, SSH and FTP. Also learn how to install and operate the integration with the Windows system through the Samba software. At an advanced level, the course presents forms of integrated authentication using the LDAP service, and through practical scenarios that facilitate the understanding of the concepts associated with each of the services studied."
+  courseOverview: "Instale e configure serviços LDAP e DNS, e integre a eles outros serviços como Email, Web, SSL e serviços adicionais como Proxy, DHCP, SSH e FTP. Aprenda também como instalar e operar a integração com o sistema Windows através do software Samba. A nível avançado, o curso apresenta formas de autenticação integrada utilizando o serviço LDAP, e através de cenários práticos que facilitam a compreensão dos conceitos associados a cada um dos serviços.tudied."
   #certificateURL: "images/certificates/linux.png"
  
