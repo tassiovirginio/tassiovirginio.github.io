@@ -150,15 +150,15 @@ params:
     analytics:
       enabled: true
       services:
-        # Google Analytics G-8QPM6YF5NJ, GT-KT5HZ8V
-        google:
-          id: G-8QPM6YF5NJ
         # # CounterDev
         counterDev:
           id: 422ed9f8-2814-4675-8c5c-11bf4031089f
+        # Google Analytics G-8QPM6YF5NJ, GT-KT5HZ8V
+        google:
+          id: G-8QPM6YF5NJ
         # # GoatCounter
-        # goatCounter:
-        #   code: <your goat counter code>
+        goatCounter:
+          code: tassiovirginio
         # # Matomo / Piwik
         # matomo:
         #   instance: matomo.example.com
