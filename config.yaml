@@ -154,8 +154,8 @@ params:
         google:
           id: G-8QPM6YF5NJ
         # # CounterDev
-        # counterDev:
-        #   id: <your counterdev id>
+        counterDev:
+          id: 422ed9f8-2814-4675-8c5c-11bf4031089f
         # # GoatCounter
         # goatCounter:
         #   code: <your goat counter code>
@@ -316,3 +316,8 @@ privacy:
   youtube:
     disable: false
     privacyEnhanced: false
+
+
+  services:
+  googleAnalytics:
+    ID: G-8QPM6YF5NJ
