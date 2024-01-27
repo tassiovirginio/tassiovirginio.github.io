@@ -70,7 +70,7 @@ params:
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
-    maxVisibleSections: 5
+    maxVisibleSections: 6
 
   # Configure various features of this theme
   features:
@@ -80,11 +80,11 @@ params:
       enable: true
       services:
         darkreader:
-          defaultColorScheme: system # options are 'system', 'dark', 'light'
+          defaultColorScheme: dark # options are 'system', 'dark', 'light'
           fixes:
             invert: ['img[src$=".svg"]'] # inverts svg colors.
           theme:
-            brightness: 100
+            brightness: 50
             contrast: 100
             sepia: 0
 
@@ -94,7 +94,7 @@ params:
 
     # Enable and configure blog posts
     blog:
-      enable: true
+      enable: false
       # Share post on different social media
       shareButtons:
         facebook: true
@@ -110,7 +110,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
