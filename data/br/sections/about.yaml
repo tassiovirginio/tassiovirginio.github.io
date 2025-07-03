@@ -52,6 +52,11 @@ socialLinks:
   icon: "fab fa-user"
   url: "http://lattes.cnpq.br/0517470966104640"
 
+- name: OrcID
+  icon: "fab fa-user"
+  url: "https://orcid.org/0000-0001-6259-4957"
+
+
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
