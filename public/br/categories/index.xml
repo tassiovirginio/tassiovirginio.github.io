@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Tássio Virgínio</title>
-    <link>http://localhost:1313/br/categories/</link>
+    <link>https://tassiovirginio.github.io/br/categories/</link>
     <description>Recent content in Categories on Tássio Virgínio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>br</language><atom:link href="http://localhost:1313/br/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>br</language><atom:link href="https://tassiovirginio.github.io/br/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
