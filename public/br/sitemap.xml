@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tassiovirginio.github.io/br/categories/</loc>
+    <loc>https://tassio.is-a.dev/br/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://tassiovirginio.github.io/categories/"
+                href="https://tassio.is-a.dev/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="https://tassiovirginio.github.io/br/categories/"
+                href="https://tassio.is-a.dev/br/categories/"
                 />
   </url><url>
-    <loc>https://tassiovirginio.github.io/br/tags/</loc>
+    <loc>https://tassio.is-a.dev/br/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://tassiovirginio.github.io/tags/"
+                href="https://tassio.is-a.dev/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="https://tassiovirginio.github.io/br/tags/"
+                href="https://tassio.is-a.dev/br/tags/"
                 />
   </url><url>
-    <loc>https://tassiovirginio.github.io/br/</loc>
+    <loc>https://tassio.is-a.dev/br/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://tassiovirginio.github.io/"
+                href="https://tassio.is-a.dev/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="https://tassiovirginio.github.io/br/"
+                href="https://tassio.is-a.dev/br/"
                 />
   </url>
 </urlset>
