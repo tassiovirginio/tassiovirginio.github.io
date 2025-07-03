@@ -23,6 +23,49 @@ buttons:
 
 # your publications
 publications:
+- title: "SNUTS.js: Sniffing Nasty Unit Test Smells in Javascript - A3"
+  publishedIn:
+    name: "Brazilian Symposium on Software Engineering"
+    date: 2024
+    url: https://doi.org/10.5753/sbes.2024.3563
+  authors:
+  - name: Jhonatan Oliveira (UNEB)
+    url: https://orcid.org/
+  - name: Luigi Mateus (UNEB)
+    url: https://orcid.org/
+  - name: Tássio Virgínio (IFTO)
+    url: https://orcid.org/0000-0001-6259-4957
+  - name: Larissa Rocha (UNEB / UEFS)
+    url: https://orcid.org/
+  paper:
+    summary: "Test smells indicate potential issues or weaknesses within the test code, which can compromise its effectiveness and maintainability. They highlight areas where improvements can enhance the overall quality of the test suite or testing practices. For instance, an example of a test smell is the Anonymous Test, where the test’s name lacks descriptive information about its function or purpose. Addressing these test smells can result in more robust and maintainable test suites, thus improving the reliability of the testing process. Despite significant research on these issues, tools are scarce for automatically detecting them, particularly in certain programming languages such as JavaScript. In the current landscape, existing test smell detection tools for JavaScript lack intuitiveness and graphical interfaces, and require extensive configuration, which may lead to low adoption within the developer community. To address this gap, we propose SNUTS.js, a tool designed to streamline the detection of test smells in JavaScript. Designed as an API, SNUTS.js offers versatility, allowing integration with various tools and environments. This tool goes beyond existing solutions by identifying previously undetected test smells, including the Anonymous Test, Comments Only Test, Overcommented, General Fixture, Transcripting Test, and Sensitive Equality. We also introduce a new test smell termed Test Without Description, which denotes a test case lacking descriptive text. In a preliminary evaluation, we constructed a dataset of tests sourced from real-world projects on GitHub. Through manual analysis, we identified 285 instances of test smells. SNUTS.js demonstrated a detection accuracy of 100% for three specific types of test smells, Anonymous Test, Overcommented, and General Fixture, all tailored to the JavaScript environment. Link to the video: https://youtu.be/89z0jy4Nu0s"
+    url: https://doi.org/10.5753/sbes.2024.3563
+  categories: ["Test Smells"]
+  tags: ["Test Smells", "JavaScript", "Test Quality", "Tool"]
+
+- title: "How Aware Are We of Test Smells in Quantum Software Systems? A Preliminary Empirical Evaluation - B1"
+  publishedIn:
+    name: "SBQS '24: Proceedings of the XXIII Brazilian Symposium on Software Quality"
+    date: 2024
+    url: https://dl.acm.org/doi/10.1145/3701625.3701676
+  authors:
+  - name: Tássio Virgínio (IFTO)
+    url: https://orcid.org/0000-0001-6259-4957
+  - name: Larissa Rocha (UNEB / UEFS)
+    url: https://orcid.org/
+  - name: Carla Bezerra (UFT)
+    url: https://orcid.org/
+  - name: Márcio Ribeiro (UFAL)
+    url: https://orcid.org/
+  - name: Ivan Machado (UFBA)
+    url: https://orcid.org/
+
+  paper:
+    summary: "Context: With the rapid progress of quantum computing, Quantum Software Engineering (QSE) is establishing itself as an essential discipline to support developers throughout all stages of quantum software development. The area of testing in quantum systems has received greater attention in research on this topic to guarantee the quality and reliability of these technologies. Objective: This paper presents an empirical study focused on the testing of quantum software at its classical layer. Specifically, it aims to identify and analyze the unique characteristics of quantum software tests, particularly in terms of Test Smells, their distribution, recurrence, and differences compared to classical software tests. Method: We used two sets of software from previous studies, one comprising 12 quantum software and the other comprising 80 classical software. From these datasets, we conducted an analysis to detect 10 test smells, allowing us to map their dispersion in quantum software, identify their specific characteristics, and draw comparisons with classical software. Results: Our findings reveal a high dispersion of test smells of 51% in quantum software. Furthermore, quantum tests exhibit statistical differences from classical software tests, with the most outlier being Conditional Test Logic, which is 20% more frequent than in classical software. Conclusions: The insights gained from this study can contribute to enhancing the quality, maintainability, and readability of tests written for the classical layer of quantum software. Ultimately, this can improve the overall understanding and quality of quantum software."
+    url: https://dl.acm.org/doi/10.1145/3701625.3701676
+  categories: ["Test Smells"]
+  tags: ["Test Smells", "JavaScript", "Test Quality", "Tool"]
+
 - title: "An empirical evaluation of RAIDE: a semi-automated approach for test smells detection and refactoring - A4"
   publishedIn:
     name: Science of Computer Programming
