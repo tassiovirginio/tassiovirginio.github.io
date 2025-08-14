@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Tássio Virgínio</title>
-    <link>https://tassio.is-a.dev/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Tássio Virgínio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 08 Sep 2023 08:06:25 +0600</lastBuildDate><atom:link href="https://tassio.is-a.dev/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Fri, 08 Sep 2023 08:06:25 +0600</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Archlinux Repositories Trends</title>
-      <link>https://tassio.is-a.dev/posts/archlinuxrepositoriestrends/</link>
+      <link>http://localhost:1313/posts/archlinuxrepositoriestrends/</link>
       <pubDate>Fri, 08 Sep 2023 08:06:25 +0600</pubDate>
       
-      <guid>https://tassio.is-a.dev/posts/archlinuxrepositoriestrends/</guid>
+      <guid>http://localhost:1313/posts/archlinuxrepositoriestrends/</guid>
       <description>&lt;h3 id=&#34;archlinux-is-a-well-known-distro&#34;&gt;Archlinux is a well known distro&amp;hellip;&lt;/h3&gt;
 &lt;p&gt;and somewhat dreaded by newbies in the linux world. It&amp;rsquo;s a Rolling Release distribution, which means you&amp;rsquo;ll always have the newest versions of your libraries “in theory”. Like any other distro Archlinux packages go through a process to enter their &amp;ldquo;stable&amp;rdquo; version, being one of the fastest existing distributions &amp;ldquo;if not the fastest&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;Arch your package management is very open, at &lt;a href=&#34;https://archlinux.org/packages/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://archlinux.org/packages/&lt;/a&gt; you can search for any package you want, it will have information about the package like: package name, what version current, the maintainer, the last person who sent the package, package size, among other information (figure below).&lt;/p&gt;</description>
@@ -19,10 +19,10 @@
     
     <item>
       <title>Introduction</title>
-      <link>https://tassio.is-a.dev/posts/introduction/</link>
+      <link>http://localhost:1313/posts/introduction/</link>
       <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
       
-      <guid>https://tassio.is-a.dev/posts/introduction/</guid>
+      <guid>http://localhost:1313/posts/introduction/</guid>
       <description>&lt;p&gt;Greeting! This is an introduction post. This post tests the followings:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Hero image is in the same directory as the post.&lt;/li&gt;
@@ -33,10 +33,10 @@
     
     <item>
       <title>Markdown Samples</title>
-      <link>https://tassio.is-a.dev/posts/markdown-sample/</link>
+      <link>http://localhost:1313/posts/markdown-sample/</link>
       <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
       
-      <guid>https://tassio.is-a.dev/posts/markdown-sample/</guid>
+      <guid>http://localhost:1313/posts/markdown-sample/</guid>
       <description>&lt;p&gt;This is a sample post intended to test the followings:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A different post author.&lt;/li&gt;
@@ -61,10 +61,10 @@
     
     <item>
       <title>Rich Content</title>
-      <link>https://tassio.is-a.dev/posts/category/sub-category/rich-content/</link>
+      <link>http://localhost:1313/posts/category/sub-category/rich-content/</link>
       <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
       
-      <guid>https://tassio.is-a.dev/posts/category/sub-category/rich-content/</guid>
+      <guid>http://localhost:1313/posts/category/sub-category/rich-content/</guid>
       <description>&lt;p&gt;This sample post tests the followings:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Category, sub-category nesting in the sidebar.&lt;/li&gt;
@@ -72,7 +72,7 @@
 &lt;li&gt;Different media rendering like image, tweet, YouTube video, Vimeo video etc.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;image-sample&#34;&gt;Image Sample&lt;/h3&gt;
-&lt;img src=&#34;https://tassio.is-a.dev/posts/category/sub-category/rich-content/images/forest.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/category/sub-category/rich-content/images/forest.jpg&#34;
     
         alt=&#34;Forest&#34;
     
@@ -110,10 +110,10 @@
     
     <item>
       <title>Shortcodes Samples</title>
-      <link>https://tassio.is-a.dev/posts/shortcodes/</link>
+      <link>http://localhost:1313/posts/shortcodes/</link>
       <pubDate>Mon, 08 Jun 2020 08:06:25 +0600</pubDate>
       
-      <guid>https://tassio.is-a.dev/posts/shortcodes/</guid>
+      <guid>http://localhost:1313/posts/shortcodes/</guid>
       <description>&lt;p&gt;This is a sample post intended to test the followings:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Default hero image.&lt;/li&gt;
@@ -194,7 +194,7 @@
 
 &lt;h2 id=&#34;image&#34;&gt;Image&lt;/h2&gt;
 &lt;h4 id=&#34;a-sample-image-without-any-attribute&#34;&gt;A sample image without any attribute.&lt;/h4&gt;
-&lt;img src=&#34;https://tassio.is-a.dev/posts/shortcodes/boat.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/shortcodes/boat.jpg&#34;
     
         alt=&#34;A boat at the sea&#34;
     
@@ -206,7 +206,7 @@
 
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
 &lt;h4 id=&#34;a-sample-image-with-height-and-width-attributes&#34;&gt;A sample image with &lt;code&gt;height&lt;/code&gt; and &lt;code&gt;width&lt;/code&gt; attributes.&lt;/h4&gt;
-&lt;img src=&#34;https://tassio.is-a.dev/posts/shortcodes/boat.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/shortcodes/boat.jpg&#34;
     
         alt=&#34;A boat at the sea&#34;
     
@@ -222,7 +222,7 @@
 
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
 &lt;h4 id=&#34;a-center-aligned-image-with-height-and-width-attributes&#34;&gt;A center aligned image with &lt;code&gt;height&lt;/code&gt; and &lt;code&gt;width&lt;/code&gt; attributes.&lt;/h4&gt;
-&lt;img src=&#34;https://tassio.is-a.dev/posts/shortcodes/boat.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/shortcodes/boat.jpg&#34;
     
         alt=&#34;A boat at the sea&#34;
     
@@ -240,7 +240,7 @@
 
 &lt;div style=&#34;margin-top: 3rem;&#34;&gt;&lt;/div&gt;
 &lt;h4 id=&#34;a-image-with-float-attribute&#34;&gt;A image with &lt;code&gt;float&lt;/code&gt; attribute.&lt;/h4&gt;
-&lt;img src=&#34;https://tassio.is-a.dev/posts/shortcodes/boat.jpg&#34;
+&lt;img src=&#34;http://localhost:1313/posts/shortcodes/boat.jpg&#34;
     
         alt=&#34;A boat at the sea&#34;
     
@@ -261,28 +261,28 @@
     
     <item>
       <title>Sub-Category</title>
-      <link>https://tassio.is-a.dev/posts/category/sub-category/_index.bn/</link>
+      <link>http://localhost:1313/posts/category/sub-category/_index.bn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tassio.is-a.dev/posts/category/sub-category/_index.bn/</guid>
+      <guid>http://localhost:1313/posts/category/sub-category/_index.bn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Top Category Sample</title>
-      <link>https://tassio.is-a.dev/posts/category/_index.bn/</link>
+      <link>http://localhost:1313/posts/category/_index.bn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tassio.is-a.dev/posts/category/_index.bn/</guid>
+      <guid>http://localhost:1313/posts/category/_index.bn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>পোস্ট সমূহ</title>
-      <link>https://tassio.is-a.dev/posts/_index.bn/</link>
+      <link>http://localhost:1313/posts/_index.bn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tassio.is-a.dev/posts/_index.bn/</guid>
+      <guid>http://localhost:1313/posts/_index.bn/</guid>
       <description></description>
     </item>
     

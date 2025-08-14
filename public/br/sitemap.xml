@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tassio.is-a.dev/br/categories/</loc>
+    <loc>http://localhost:1313/br/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://tassio.is-a.dev/categories/"
+                href="http://localhost:1313/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="https://tassio.is-a.dev/br/categories/"
+                href="http://localhost:1313/br/categories/"
                 />
   </url><url>
-    <loc>https://tassio.is-a.dev/br/tags/</loc>
+    <loc>http://localhost:1313/br/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://tassio.is-a.dev/tags/"
+                href="http://localhost:1313/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="https://tassio.is-a.dev/br/tags/"
+                href="http://localhost:1313/br/tags/"
                 />
   </url><url>
-    <loc>https://tassio.is-a.dev/br/</loc>
+    <loc>http://localhost:1313/br/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://tassio.is-a.dev/"
+                href="http://localhost:1313/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="br"
-                href="https://tassio.is-a.dev/br/"
+                href="http://localhost:1313/br/"
                 />
   </url>
 </urlset>
