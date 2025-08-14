@@ -4,6 +4,7 @@ baseURL: https://tassio.is-a.dev
 languageCode: en-us
 title: "Tássio Virgínio"
 
+
 # Use Hugo modules to add theme
 module:
   imports:
@@ -23,7 +24,7 @@ module:
 languages:
   en:
     languageName: English
-    weight: 1
+    weight: 2
   br:
     languageName: "Português Brasileiro"
     weight: 2
