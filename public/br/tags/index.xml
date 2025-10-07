@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Tássio Virgínio</title>
-    <link>http://localhost:1313/br/tags/</link>
+    <link>https://tassio.is-a.dev/br/tags/</link>
     <description>Recent content in Tags on Tássio Virgínio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>br</language><atom:link href="http://localhost:1313/br/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>br</language><atom:link href="https://tassio.is-a.dev/br/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

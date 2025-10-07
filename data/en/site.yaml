@@ -1,5 +1,5 @@
 # Copyright Notice
-copyright: © 2023 Copyright.
+copyright: © 2025 Copyright.
 
 # A disclaimer notice for the footer. Make sure you have set "params.footer.disclaimer.enable: true" in your `config.yaml` file.
 disclaimer: "This theme is under MIT license. So, you can use it for non-commercial, commercial, or private uses.
@@ -13,7 +13,7 @@ description: Portfolio and personal blog of Tássio Virgínio.
 # they will be separated by a divider from the main menus.
 customMenus:
 - name: Docs
-  url: https://toha-guides.netlify.app/posts/
+  url: https://tassio.is-a.dev/posts/
   # specify whether to hide the menu item from top navbar or not.
   hideFromNavbar: true
   # specify whether to show the menu item in footer or not.
@@ -26,4 +26,4 @@ openGraph:
   type: website
   description: Portfolio and personal blog of Tássio Virgínio.
   image: images/author/tassio.png
-  url: https://tassiovirginio.github.io
+  url: https://tassio.is-a.dev
