@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bash Notes on Tássio Virgínio</title><link>https://tassio.is-a.dev/notes/bash/</link><description>Recent content in Bash Notes on Tássio Virgínio</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://tassio.is-a.dev/notes/bash/index.xml" rel="self" type="application/rss+xml"/><item><title>Bash Variables</title><link>https://tassio.is-a.dev/notes/bash/basic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tassio.is-a.dev/notes/bash/basic/</guid><description>&lt;!-- Variable --&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bash Notes on Tássio Virgínio</title><link>https://tassiovirginio.github.io/notes/bash/</link><description>Recent content in Bash Notes on Tássio Virgínio</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://tassiovirginio.github.io/notes/bash/index.xml" rel="self" type="application/rss+xml"/><item><title>Bash Variables</title><link>https://tassiovirginio.github.io/notes/bash/basic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tassiovirginio.github.io/notes/bash/basic/</guid><description>&lt;!-- Variable --&gt;
 &lt;div class="note-card "&gt;
 &lt;div class="item"&gt;
 &lt;h5 class="note-title"&gt;&lt;span&gt;Variable&lt;/span&gt;&lt;/h5&gt;
@@ -24,4 +24,4 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>ব্যাশের নোট সমূহ</title><link>https://tassio.is-a.dev/notes/bash/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tassio.is-a.dev/notes/bash/_index.bn/</guid><description>&lt;h1 id="bash-notes"&gt;Bash Notes&lt;/h1&gt;</description></item></channel></rss>
+&lt;/div&gt;</description></item><item><title>ব্যাশের নোট সমূহ</title><link>https://tassiovirginio.github.io/notes/bash/_index.bn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tassiovirginio.github.io/notes/bash/_index.bn/</guid><description>&lt;h1 id="bash-notes"&gt;Bash Notes&lt;/h1&gt;</description></item></channel></rss>
