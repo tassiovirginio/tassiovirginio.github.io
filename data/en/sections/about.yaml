@@ -62,22 +62,6 @@ resourceLinks:
 # You can show your verifiable certificates from https://www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
-- type: certification
-  name: Oracle Certified Professional Java SE 6 Programmer
-  # url: "https://education.oracle.com/oracle-certified-professional-java-se-6-programmer/trackp_357"
-  badge: "http://images.credly.com/images/8271b3d7-090a-42ec-9b84-d4f845698abd/Oracle-Certification-badge_OC-Professional600X600.png"
-
-- type: certification
-  name: Scrum Fundamentals Certified
-  # url: "https://www.scrumstudy.com/portuguese/scrum-fundamentals-certified"
-  badge: "https://scrumevolution.com/wp-content/uploads/2022/12/SMC-512.png"
-
-- type: certification
-  name: 
-  # url: "https://www.scrumstudy.com/portuguese/scrum-fundamentals-certified"
-  badge: ""
-
-
 - type: soft-skill-indicator
   name: Leadership
   percentage: 85

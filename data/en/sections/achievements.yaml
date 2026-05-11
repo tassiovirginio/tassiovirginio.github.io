@@ -10,6 +10,9 @@ section:
 
 # Your achievements achievements
 achievements:
+- title: SAST 2025 Artigo Destaque - CBSOFT 2025
+  image: /images/sections/achievements/sast2025.png
+  summary: SAST 2025 Artigo Destaque - CBSOFT 2025
 - title: Best Paper - CIbSE 2022
   image: /images/sections/achievements/cibse2022.jpeg
   summary: Best Paper - CIbSE 2022

@@ -21,6 +21,21 @@ buttons:
 
 # your projects
 projects:
+- name: Try-RS
+  logo: /images/sections/projects/try-rs.png
+  role: Owner
+  url: "https://try-rs.org/"
+  summary: Gerenciador instantâneo de workspace para experimentos temporários. Uma TUI ultrarrápida em Rust para gerenciar projetos temporários sem bagunçar seu sistema.
+  tags: ["hobby"]
+
+- name: DNose
+  logo: /images/sections/projects/dnose.png
+  role: Owner
+  repo: https://github.com/tassiovirginio/dnose
+  url: "https://dnose-ts.github.io/"
+  summary: Dart/Flutter Test Smell Detector. Uma ferramenta para detecção automatizada de test smells em código de teste Dart.
+  tags: ["academic", "professional"]
+
 - name: JNose
   logo: /images/sections/projects/jnose.png
   role: Owner
@@ -29,6 +44,13 @@ projects:
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: JNose Test is a tool developed to automatically detect test smells in test code, and to collect coverage metrics.
   tags: ["academic", "professional"]
+
+- name: AriesLinter
+  logo: /images/sections/projects/jnose.png
+  role: Coautor
+  repo: https://github.com/viRafael/arieslinter
+  summary: Detectando test smells antes que eles aconteçam. Um linter para detecção precoce de test smells.
+  tags: ["academic"]
 
 - name: JNose-Jenkins-Plugin
   logo: /images/sections/projects/jnose.png

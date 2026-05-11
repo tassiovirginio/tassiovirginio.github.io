@@ -21,6 +21,22 @@ buttons:
 
 # your projects
 projects:
+- name: Try-RS
+  logo: /images/sections/projects/try-rs.png
+  role: Owner
+  repo: https://github.com/tassiovirginio/try-rs
+  url: "https://try-rs.org/"
+  summary: Instant workspace manager for temporary experiments. A lightning-fast TUI built in Rust to manage temporary projects without cluttering your system.
+  tags: ["hobby"]
+
+- name: DNose
+  logo: /images/sections/projects/dnose.png
+  role: Owner
+  repo: https://github.com/tassiovirginio/dnose
+  url: "https://dnose-ts.github.io/"
+  summary: Dart/Flutter Test Smell Detector. A tool for automated detection of test smells in Dart test code.
+  tags: ["academic", "professional"]
+
 - name: JNose
   logo: /images/sections/projects/jnose.png
   role: Owner
@@ -29,6 +45,13 @@ projects:
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: JNose Test is a tool developed to automatically detect test smells in test code, and to collect coverage metrics.
   tags: ["academic", "professional"]
+
+- name: AriesLinter
+  logo: /images/sections/projects/jnose.png
+  role: Co-author
+  repo: https://github.com/viRafael/arieslinter
+  summary: Sniffing test smells before they happen. A linter for early detection of test smells.
+  tags: ["academic"]
 
 - name: JNose-Jenkins-Plugin
   logo: /images/sections/projects/jnose.png
@@ -56,14 +79,6 @@ projects:
   url: "https://sigaedu.ifto.edu.br/"
   summary: Integrated Academic Management System for Professional and Technological Education. Developed with JSF, JPA and EJB.
   tags: ["professional"]
-
-- name: Comtrol Point
-  logo: /images/sections/projects/github.png
-  role: Owner
-  # timeline: "Jun 2019 - Present"
-  repo: https://github.com/tassiovirginio/controlpoint
-  summary: A simple time attendance system made with Java, Wicket and Hibernate.
-  tags: ["hobby"]  
 
 - name: First Step In Agile
   logo: /images/sections/projects/github.png
