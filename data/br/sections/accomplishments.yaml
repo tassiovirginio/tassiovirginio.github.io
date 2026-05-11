@@ -1,0 +1,44 @@
+# section information
+section:
+  name: Conquistas
+  id: accomplishments
+  enable: true
+  weight: 8
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+
+accomplishments:
+- name: Scrum Fundamentals Certified (SFC)
+  timeline: "May 2019"
+  organization:
+    name: SCRUMstudy
+    url: https://www.scrumstudy.com/
+  courseOverview: "O curso 'Scrum Fundamentals Certified' foi desenvolvido para ajudar qualquer pessoa interessada em aprender mais sobre Scrum; conhecer os principais conceitos do Scrum definidos no Guia SBOK®; e obter uma compreensão básica de como a estrutura Scrum funciona na entrega de projetos bem-sucedidos. O objetivo do exame 'Scrum Fundamentals Certified' é confirmar se você tem um conhecimento básico da estrutura Scrum."
+  #certificateURL: "https://drive.google.com/file/d/149nO_B5Gcfzcpf-EQhle9ZakKp4235l5/view"
+
+- name: TOEFL ITP (A2)
+  timeline: "August 2018"
+  organization:
+    name: UFBA
+    url: https://www.ufba.br/
+  courseOverview: "O teste TOEFL ITP de proficiência na língua inglesa é aceito por universidades de todo o mundo. Além de ser utilizado por escolas de idiomas e programas de internacionalização educacional. Devido ao seu caráter acadêmico, pode ser utilizado por estudantes que desejam acompanhar sua evolução no idioma e principalmente para aqueles que irão participar de programas de intercâmbio acadêmico."
+  #certificateURL: "images/certificates/toefl.png"
+
+- name: Oracle Certified Professional, Java SE 6 Programmer
+  timeline: "October 2010"
+  organization:
+    name: Oracle
+    url: https://www.credly.com/badges/01ab9868-42cf-4fa7-884e-0b0c453e6ce4/linked_in_profile
+  courseOverview: "Um Oracle Certified Professional, Java SE 6 Programmer tem experiência no uso da linguagem de programação Java, entende a sintaxe básica e a estrutura da linguagem de programação Java e pode criar aplicativos de tecnologia Java que são executados em sistemas de servidor e desktop usando J2SE 6.0."
+  #certificateURL: "images/certificates/toefl.png"
+
+- name: "Linux System Administration: Services for Internet - RNP"
+  timeline: "Nov 2017 - Mar 2018"
+  organization:
+    name: RNP
+    url: https://esr.rnp.br/cursos/administracao-de-sistemas-linux-servicos-para-internet-presencial/
+  courseOverview: "Instale e configure serviços LDAP e DNS, e integre a eles outros serviços como Email, Web, SSL e serviços adicionais como Proxy, DHCP, SSH e FTP. Aprenda também como instalar e operar a integração com o sistema Windows através do software Samba. A nível avançado, o curso apresenta formas de autenticação integrada utilizando o serviço LDAP, e através de cenários práticos que facilitam a compreensão dos conceitos associados a cada um dos serviços.tudied."
+  #certificateURL: "images/certificates/linux.png"
+ 

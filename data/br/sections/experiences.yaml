@@ -1,0 +1,114 @@
+# section information
+section:
+  name: Experiência
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: IFTO
+    url: "http://www.ifto.edu.br/"
+    location: Dianópolis - TO
+    # company overview
+    overview: O IFTO é uma instituição de ensino superior, básico e profissional, pluricurricular e multicampi (reitoria, campus, campus avançado e centros de educação a distância), especializada em oferecer educação profissional e tecnológica em diversas modalidades de ensino, a partir da combinação de conhecimentos técnicos e tecnológicos. com suas práticas pedagógicas/andragógicas.
+  positions:
+  - designation: EBTT Teacher
+    start: Fev 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Fev 2022
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Teach students at basic, technical and higher levels.
+    # - Design and develop XYZ tool for ABC task
+    # - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
+    # - Lead backend team.
+
+- company:
+    name: IFTO
+    url: "http://www.ifto.edu.br/"
+    location: Dianópolis-TO / Paraíso do Tocantins-TO
+    # company overview
+    overview: O IFTO é uma instituição de ensino superior, básico e profissional, pluricurricular e multicampi (reitoria, campus, campus avançado e centros de educação a distância), especializada em oferecer educação profissional e tecnológica em diversas modalidades de ensino, a partir da combinação de conhecimentos técnicos e tecnológicos. com suas práticas pedagógicas/andragógicas.
+  positions:
+  - designation: Information Technology Technician/Senior Software Engineer
+    start: Aug 2014
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: Fev 2022
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Systems development using Java language.
+    - Responsible for internal systems support.
+    # - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
+    # - Lead backend team.
+
+- company:
+    name: SETAS - Secretaria de Trabalho e Assistência Social
+    url: "https://www.to.gov.br/setas"
+    location: Palmas-TO
+    overview: A SETAS, órgão da administração pública do Poder Executivo criado em 22 de dezembro de 1995, auxilia direta e imediatamente o Governo do Estado do Tocantins no desempenho de suas atribuições de planejar, coordenar, orientar e executar a Política Estadual de Assistência Social, Economia Solidária, Segurança Laboral e Alimentar, visando o desenvolvimento económico e social.
+  positions:
+  - designation: Software Engineer
+    start: March 2013
+    end: Aug 2014
+    responsibilities:
+    - Systems development using Java language.
+
+- company:
+    name: M2M Solutions S/A
+    url: "http://www.m2msolutions.com.br/index.html"
+    location: Fortaleza, CE, Brasil
+    overview: A M2M Solutions é uma fornecedora de soluções de Tecnologia da Informação para gestão e otimização de transport operations, serving bus companies government, unions and end users. Development de sistemas de gestão de transporte público urbano, utilizando dados geográficos.
+  positions:
+  - designation: Software Engineer
+    start: Jul 2009
+    end: Fev 2013
+    responsibilities:
+    - Responsible for the realtime geographic metrics processing system.
+    - Technologies used - Java, Scala, Akka, GWT, GXT, Hibernate and Spring.    
+
+- company:
+    name: Pitang
+    url: "https://www.pitang.com/"
+    location: Recife, PE, Brasil
+    overview: Fundada em 2004, a Pitang foi resultado de uma cisão da área de Projetos Comerciais do C.E.S.A.R., um dos principais institutos de inovação do país. Desenvolvemos serviços e soluções de alta qualidade em Tecnologia da Informação e Comunicação, focando nas demandas do mercado de forma inovadora, através do desenvolvimento de projetos exclusivos que apoiam a transformação digital de nossos clientes utilizando competências em Computação Cognitiva, Plataformas de Experiência Digital, Analytics, Cloud Computing , Aplicativos Móveis, UX, Agilidade, DevOps e Testes.
+  positions:
+  - designation: Software Engineer
+    start: Jan 2009
+    end: Jun 2009
+    responsibilities:
+    - Systems development using Java language and Apache Wicket and Spring frameworks.
+    # - Read lots of examples.
+    # - See lots of example videos.
+
+- company:
+    name: Centro de Informática UFPE/Motorola
+    url: "https://portal.cin.ufpe.br/"
+    location: Recife, PE, Brasil
+    overview: O Centro de Informática da UFPE é um dos mais renomados centros de ensino e pesquisa em computação do Brasil e da América Latina, formando profissionais qualificados e de excelência em Tecnologia da Informação e Comunicação (TIC).
+  positions:
+  - designation: Software Engineer (trainee)
+    start: Jan 2008
+    end: Dez 2008
+    responsibilities:
+    - Automated test development for mobile devices.
+    # - Read lots of examples.
+    # - See lots of example videos.
+
+- company:
+    name: FACAPE
+    url: "http://facape.br/"
+    location: Petrolina, PE, Brasil
+    overview: A Faculdade de Petrolina (FACAPE) foi criada na forma de Autarquia Municipal com a denominação de Autarquia Educacional do Vale do São Francisco -AEVSF, pela lei municipal nº 25/76 de 19 de julho de 1976.
+  positions:
+  - designation: Software Engineer (trainee)
+    start: Jan 2005
+    end: Dez 2007
+    responsibilities:
+    - Systems development using Java language and Apache Struts.
+    # - Read lots of examples.
+    # - See lots of example videos.

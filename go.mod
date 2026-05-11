@@ -1,9 +1,11 @@
-module github.com/hugo-themes/toha-example-site
+module github.com/tassiovirginio/tassiovirginio.github.io
 
-go 1.25
+go 1.21
+
+toolchain go1.24.4
+
+require github.com/hugo-toha/toha/v4 v4.9.0 // indirect
 
 // replace(
 //     github.com/hugo-toha/toha/v4 => ../toha
 // )
-
-require github.com/hugo-toha/toha/v4 v4.13.1-0.20260114145901-84093514293e // indirect
