@@ -2,6 +2,7 @@
 baseURL: https://tassiovirginio.github.io
 
 languageCode: en-us
+locale: en-us
 title: "Tássio Virgínio"
 
 
@@ -12,7 +13,7 @@ module:
   mounts:
   - source: static/files
     target: static/files
-  - source: ./node_modules/flag-icon-css/flags
+  - source: ./node_modules/flag-icons/flags
     target: static/flags
   - source: ./node_modules/@fontsource/mulish/files
     target: static/files
@@ -21,16 +22,17 @@ module:
 
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
+defaultContentLanguage: en
+
 languages:
   en:
-    languageName: English
-    weight: 2
+    label: English
+    locale: en-US
+    weight: 1
   br:
-    languageName: "Português Brasileiro"
+    label: "Português Brasileiro"
+    locale: pt-BR
     weight: 2
-
-# Force a locale to be use, really useful to develop the application ! Should be commented in production, the "weight" should rocks.
-# DefaultContentLanguage: bn
 
 # Allow raw html in markdown file
 markup:
@@ -53,10 +55,22 @@ outputs:
 # Enable global emoji support
 enableEmoji: true
 
+# RSS output format
+outputFormats:
+  RSS:
+    baseName: rss
+
+# Sitemap config
+sitemap:
+  changefreq: monthly
+  priority: 0.5
+
 # Site parameters
 params:
   # Background image of the landing page
   background: /images/site/background.jpg
+  # Background image of the landing page for dark theme
+  #darkBackground: /images/site/background.jpg
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
@@ -78,17 +92,12 @@ params:
   features:
 
     # Enable dark theme
-    darkMode:
+    theme:
       enable: true
       services:
-        darkreader:
-          defaultColorScheme: dark # options are 'system', 'dark', 'light'
-          fixes:
-            invert: ['img[src$=".svg"]'] # inverts svg colors.
-          theme:
-            brightness: 50
-            contrast: 100
-            sepia: 0
+        light: true
+        dark: true
+        default: system
 
     # Enable and configure portfolio
     portfolio:
@@ -97,6 +106,7 @@ params:
     # Enable and configure blog posts
     blog:
       enable: false
+      showAuthor: true # shows the author of post (defaults true)
       # Share post on different social media
       shareButtons:
         facebook: true
@@ -200,11 +210,11 @@ params:
 
     # Enable this to use `embed-pdf` shortcode.
     embedpdf:
-      enable: false
+      enable: true
 
     # Enable this to create flowcharts using shortcodes.
     flowchart:
-      enable: false
+      enable: true
       services:
         # Uncomment for `mermaid` shortcode.
         mermaid:
@@ -261,9 +271,17 @@ params:
           # options doc: https://github.com/sampotts/plyr#options
           # fullscreen: true
     
-        # Enable reading time support in post cards and in post pages
+    # Enable reading time support in post cards and in post pages
     readingTime:
-      enable: false
+      enable: true
+
+    # Enables copy code button
+    copyCodeButton:
+      enable: true
+
+    # Number of posts to show to each page. Default is "12"
+    pagination:
+       maxPostsPerPage: 12
 
 
   # Provide footer configuration.
