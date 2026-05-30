@@ -1,1 +1,75 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tássio Virgínio</title><link>https://tassiovirginio.github.io/</link><description>Recent content on Tássio Virgínio</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Tue, 08 Jun 2010 08:06:25 +0600</lastBuildDate><atom:link href="https://tassiovirginio.github.io/rss.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tássio Virgínio</title><link>https://tassiovirginio.github.io/</link><description>Recent content on Tássio Virgínio</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Tue, 08 Jun 2010 08:06:25 +0600</lastBuildDate><atom:link href="https://tassiovirginio.github.io/rss.xml" rel="self" type="application/rss+xml"/><item><title>Comandos Básicos</title><link>https://tassiovirginio.github.io/notes/git/basico/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tassiovirginio.github.io/notes/git/basico/</guid><description>&lt;div class="note-card "&gt;
+&lt;div class="item"&gt;
+&lt;h5 class="note-title"&gt;&lt;span&gt;Clonar repositório&lt;/span&gt;&lt;/h5&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone https://github.com/usuario/repo.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="note-card "&gt;
+&lt;div class="item"&gt;
+&lt;h5 class="note-title"&gt;&lt;span&gt;Commitar&lt;/span&gt;&lt;/h5&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git commit -m &lt;span style="color:#e6db74"&gt;&amp;#34;mensagem&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Comandos Básicos</title><link>https://tassiovirginio.github.io/notes/linux/basico/comandos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tassiovirginio.github.io/notes/linux/basico/comandos/</guid><description>&lt;div class="note-card "&gt;
+&lt;div class="item"&gt;
+&lt;h5 class="note-title"&gt;&lt;span&gt;Listar arquivos&lt;/span&gt;&lt;/h5&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;Lista arquivos e diretórios.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ls -la
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="note-card "&gt;
+&lt;div class="item"&gt;
+&lt;h5 class="note-title"&gt;&lt;span&gt;Navegar&lt;/span&gt;&lt;/h5&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;Muda para outro diretório.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd /caminho/do/diretorio
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Rio Terminal</title><link>https://tassiovirginio.github.io/notes/projetos-interessantes/dev/rio/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tassiovirginio.github.io/notes/projetos-interessantes/dev/rio/</guid><description>&lt;div class="note-card "&gt;
+&lt;div class="item"&gt;
+&lt;h5 class="note-title"&gt;&lt;span&gt;Rio&lt;/span&gt;&lt;/h5&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;Terminal moderno, bonito e acelerado por GPU, escrito em Rust por um brasileiro. Suporta ligaturas, abas, split panes e configuração via TOML.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href="https://github.com/raphamorim/rio" target="_blank" rel="noopener"&gt;https://github.com/raphamorim/rio&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Tangent</title><link>https://tassiovirginio.github.io/notes/projetos-interessantes/dev/tangent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tassiovirginio.github.io/notes/projetos-interessantes/dev/tangent/</guid><description>&lt;div class="note-card "&gt;
+&lt;div class="item"&gt;
+&lt;h5 class="note-title"&gt;&lt;span&gt;Tangent&lt;/span&gt;&lt;/h5&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;Ferramenta local de notas/conhecimento pessoal inspirada no Obsidian. Suporta [[Wiki Links]], markdown customizado, mapa de navegação 2D, query language própria e visualização de cards.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Site:&lt;/strong&gt; &lt;a href="https://www.tangentnotes.com/" target="_blank" rel="noopener"&gt;https://www.tangentnotes.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href="https://github.com/suchnsuch/Tangent" target="_blank" rel="noopener"&gt;https://github.com/suchnsuch/Tangent&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>NotebookLM MCP CLI</title><link>https://tassiovirginio.github.io/notes/projetos-interessantes/dev/notebooklm-mcp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tassiovirginio.github.io/notes/projetos-interessantes/dev/notebooklm-mcp/</guid><description>&lt;div class="note-card "&gt;
+&lt;div class="item"&gt;
+&lt;h5 class="note-title"&gt;&lt;span&gt;NotebookLM MCP CLI&lt;/span&gt;&lt;/h5&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;Interface de linha de comando que integra o Google NotebookLM com o protocolo MCP (Model Context Protocol). Permite buscar, consultar e gerenciar notas do NotebookLM via terminal/LLMs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href="https://github.com/jacob-bd/notebooklm-mcp-cli" target="_blank" rel="noopener"&gt;https://github.com/jacob-bd/notebooklm-mcp-cli&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Spotify Player (TUI)</title><link>https://tassiovirginio.github.io/notes/projetos-interessantes/dev/spotify-player/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tassiovirginio.github.io/notes/projetos-interessantes/dev/spotify-player/</guid><description>&lt;div class="note-card "&gt;
+&lt;div class="item"&gt;
+&lt;h5 class="note-title"&gt;&lt;span&gt;Spotify Player&lt;/span&gt;&lt;/h5&gt;
+&lt;div class="card"&gt;
+&lt;div class="card-body"&gt;&lt;p&gt;Cliente TUI completo para Spotify, escrito em Rust. Navegue, busque, toque músicas e gerencie playlists direto do terminal, com suporte a streaming e cache local.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href="https://github.com/aome510/spotify-player" target="_blank" rel="noopener"&gt;https://github.com/aome510/spotify-player&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>
