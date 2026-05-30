@@ -19,7 +19,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'Sou professor e engenheiro de software apaixonado com 14 anos de experiência profissional. Atualmente trabalho com JSF, JPA e EJB. Apoiar o sistema SIGA EPTC utilizado em todo o Instituto Federal do Tocantins.'
+summary: 'Sou professor, pesquisador e engenheiro de software apaixonado, com mais de 20 anos de experiência. Trabalho com Java, Rust, Python e TypeScript em projetos open-source focados em qualidade de software. Minha pesquisa explora Test Smells, Large Language Models (LLMs) e qualidade de testes automatizados. Sou criador do JNose (detector de Test Smells para Java), DNose (detector de Test Smells para Dart), Try-RS, e coautor do AriesLinter e RAIDE. Atualmente sou doutorando em Ciência da Computação pela UFBA e professor no Instituto Federal do Tocantins (IFTO).'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.

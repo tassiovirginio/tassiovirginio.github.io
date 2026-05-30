@@ -19,7 +19,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a teacher and passionate software engineer with 14 years of professional experience. I currently work with JSF, JPA and EJB. Supporting the SIGA EPTC system that is used throughout the Federal Institute of Tocantins.'
+summary: 'I am a teacher, researcher, and passionate software engineer with over 20 years of experience. I work with Java, Rust, Python, and TypeScript on open-source projects focused on software quality. My research explores Test Smells, Large Language Models (LLMs), and automated test quality. I am the creator of JNose (Java Test Smell Detector), DNose (Dart Test Smell Detector), Try-RS, and co-author of AriesLinter and RAIDE. Currently pursuing a PhD in Computer Science at UFBA and teaching at the Federal Institute of Tocantins (IFTO).'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
