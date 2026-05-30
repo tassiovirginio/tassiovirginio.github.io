@@ -14,6 +14,7 @@ contactInfo:
   lattes:
     url: "http://lattes.cnpq.br/0517470966104640"
     icon: "user"
+    imageicon: "/images/site/lattes-icon.png"
     text: "Lattes"
   stackoverflow:
     url: "https://stackoverflow.com/users/2021511/tassiovirginio"

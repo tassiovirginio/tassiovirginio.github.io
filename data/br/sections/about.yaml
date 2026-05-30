@@ -41,7 +41,7 @@ socialLinks:
   url: "https://www.linkedin.com/in/tassiovirginio/"
 
 - name: X
-  icon: "fab fa-twitter"
+  icon: "fab fa-x-twitter"
   url: "https://x.com/msc_tassio"
 
 - name: Facebook
@@ -50,6 +50,7 @@ socialLinks:
 
 - name: Lattes
   icon: "fab fa-user"
+  imageicon: "/images/site/lattes-icon.png"
   url: "http://lattes.cnpq.br/0517470966104640"
 
 - name: OrcID
