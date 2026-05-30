@@ -1,56 +1,75 @@
 # section information
 section:
-  name: Skills
+  name: Habilidades
   id: skills
   enable: true
   weight: 2
   showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Javascript/ECMAScript Teacher
-  logo: "/images/sections/skills/es.png"
-  summary: "Utilizando as disciplinas que leciono no IFTO, Estrutura de Dados, Desenvolvimento de Sistemas para Internet e Aplicações Web."
-  url: "https://www.ecma-international.org/publications-and-standards/standards/ecma-262/"
+- name: Rust
+  logo: "/images/sections/skills/rust.svg"
+  summary: "Experiente com Rust para construção de ferramentas CLI e TUIs. Criador do Try-RS (gerenciador de workspaces) e envy-tui. Entusiasta da performance e segurança da linguagem."
+  url: "https://www.rust-lang.org/"
 
-- name: Java Development
+- name: Desenvolvimento Java
   logo: "/images/sections/skills/java.png"
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+  summary: "Linguagem principal com mais de 15 anos de experiência. Construí sistemas em produção, ferramentas de teste (JNose, RAIDE, AriesLinter) e projetos de pesquisa acadêmica."
   url: "https://www.java.com/"
 
-- name: JavaServer Faces (JSF) 
-  logo: "/images/sections/skills/java.png"
-  summary: "Knowledge in project development. Able to write scalable, testable and sustainable web programs."
-  url: "https://www.oracle.com/java/technologies/javaserverfaces.html"
+- name: Python
+  logo: "/images/sections/skills/python.svg"
+  summary: "Utilizado em pesquisa acadêmica para geração e avaliação de testes com LLMs. Experiência com análise de dados e scripts de automação."
+  url: "https://www.python.org/"
 
-- name: Hibernate 
-  logo: "/images/sections/skills/hibernate.jpg"
-  summary: "I've known since the first versions where the settings were in xml. I use it in my professional and personal projects."
-  url: "https://hibernate.org/"
+- name: TypeScript / JavaScript
+  logo: "/images/sections/skills/typescript.svg"
+  summary: "Leciono Estrutura de Dados, Desenvolvimento de Sistemas para Internet e Aplicações Web no IFTO. Utilizado em projetos pessoais e acadêmicos."
+  url: "https://www.typescriptlang.org/"
 
-- name: Spring 
+- name: Dart / Flutter
+  logo: "/images/sections/skills/dart.svg"
+  summary: "Criador do DNose, um detector de Test Smells para código Dart. Experiente com Flutter para desenvolvimento multiplataforma."
+  url: "https://dart.dev/"
+
+- name: Desenvolvimento Scala
+  logo: "/images/sections/skills/scala.png"
+  summary: "Utilizado em produção na M2M Solutions para sistema de processamento de métricas geográficas em tempo real com Akka actors. Entusiasta da linguagem."
+  url: "https://www.scala-lang.org/"
+
+- name: Spring Framework
   logo: "/images/sections/skills/spring.png"
-  summary: "The set of features that Spring provides us are immense, and it helps a lot for development. I use it in professional and personal projects, initially only injecting its dependencies, and depending on the project, other features."
+  summary: "Experiência extensa com ecossistema Spring (Boot, Data, Security) para construção de aplicações empresariais. Utilizado em projetos profissionais e pessoais."
   url: "https://spring.io/"
 
-- name: Apache Wicket
-  logo: "/images/sections/skills/wicket.png"
-  summary: "A very easy-to-use web framework, component, I used it in a professional project and ended up liking it a lot, using it in other personal projects."
-  url: "https://wicket.apache.org/"
+- name: Hibernate / JPA
+  logo: "/images/sections/skills/hibernate.jpg"
+  summary: "Conhecimento profundo desde as versões baseadas em XML. Utilizado extensivamente em projetos profissionais para persistência de dados e mapeamento ORM."
+  url: "https://hibernate.org/"
 
-- name: Scala Development
-  logo: "/images/sections/skills/scala.png"
-  summary: "Language enthusiast, I have already used it in a refactoring of a geographic metrics control system, the Language Actors system provided us with scaling in the system's responses."
-  url: "https://www.scala-lang.org/"
+- name: Testes de Software & Test Smells
+  logo: "/images/sections/skills/testing.svg"
+  summary: "Área central de pesquisa. Criador dos detectores de Test Smells JNose (Java) e DNose (Dart). Coautor do AriesLinter e RAIDE. Pesquisando qualidade de testes gerados por LLMs e refatoração automatizada."
+  url: "https://arieslab.github.io/"
+
+- name: Docker
+  logo: "/images/sections/skills/docker.svg"
+  summary: "Experiente com containerização para desenvolvimento e deploy de aplicações. Utilizado em projetos pessoais e acadêmicos."
+  url: "https://www.docker.com/"
+
+- name: PostgreSQL
+  logo: "/images/sections/skills/postgresql.svg"
+  summary: "Banco de dados principal para projetos profissionais e de pesquisa. Experiência com design de esquemas, queries e otimização de performance."
+  url: "https://www.postgresql.org/"
 
 - name: Linux
   logo: "/images/sections/skills/linux.png"
-  summary: "I've been using linux for over 10 years as my working system, I'm not a Linux administrator, but an advanced user, I've been using Archlinux as my main distribution for 2 years now."
-  url: "https://www.scala-lang.org/"
+  summary: "Mais de 10 anos como sistema principal. Usuário de Archlinux, NixOS e Ubuntu. Usuário avançado com experiência em shell script, administração de sistemas e ambientes de desenvolvimento."
+  url: "https://archlinux.org/"
 
 - name: GIT
   logo: "/images/sections/skills/git.png"
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  summary: "Experiente com desenvolvimento baseado em git. Uso diário de GitHub e GitLab para controle de versão, CI/CD e colaboração em código aberto."
+  url: "https://git-scm.com/"

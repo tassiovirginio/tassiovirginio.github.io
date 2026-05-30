@@ -5,52 +5,71 @@ section:
   enable: true
   weight: 2
   showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Javascript/ECMAScript Teacher
-  logo: "/images/sections/skills/es.png"
-  summary: "Using the subjects I teach at IFTO, Data Structure, Development of Internet Systems and Web Applications."
-  url: "https://www.ecma-international.org/publications-and-standards/standards/ecma-262/"
+- name: Rust
+  logo: "/images/sections/skills/rust.svg"
+  summary: "Experienced with Rust for building CLI tools and TUIs. Creator of Try-RS (workspace manager) and envy-tui. Enthusiast of the language's performance and safety guarantees."
+  url: "https://www.rust-lang.org/"
 
 - name: Java Development
   logo: "/images/sections/skills/java.png"
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+  summary: "Core language with over 15 years of experience. Built production systems, test tools (JNose, RAIDE, AriesLinter), and academic research projects. Proficient in modern Java features and ecosystem."
   url: "https://www.java.com/"
 
-- name: JavaServer Faces (JSF) 
-  logo: "/images/sections/skills/java.png"
-  summary: "Knowledge in project development. Able to write scalable, testable and sustainable web programs."
-  url: "https://www.oracle.com/java/technologies/javaserverfaces.html"
+- name: Python
+  logo: "/images/sections/skills/python.svg"
+  summary: "Used in academic research for LLM-based test generation and quality assessment. Experience with data analysis and automation scripts."
+  url: "https://www.python.org/"
 
-- name: Hibernate 
-  logo: "/images/sections/skills/hibernate.jpg"
-  summary: "I've known since the first versions where the settings were in xml. I use it in my professional and personal projects."
-  url: "https://hibernate.org/"
+- name: TypeScript / JavaScript
+  logo: "/images/sections/skills/typescript.svg"
+  summary: "Teaching Data Structures, Internet Systems Development, and Web Applications at IFTO. Used in personal and academic projects."
+  url: "https://www.typescriptlang.org/"
 
-- name: Spring 
-  logo: "/images/sections/skills/spring.png"
-  summary: "The set of features that Spring provides us are immense, and it helps a lot for development. I use it in professional and personal projects, initially only injecting its dependencies, and depending on the project, other features."
-  url: "https://spring.io/"
-
-- name: Apache Wicket
-  logo: "/images/sections/skills/wicket.png"
-  summary: "A very easy-to-use web framework, component, I used it in a professional project and ended up liking it a lot, using it in other personal projects."
-  url: "https://wicket.apache.org/"
+- name: Dart / Flutter
+  logo: "/images/sections/skills/dart.svg"
+  summary: "Creator of DNose, a Test Smell detector for Dart code. Experienced with Flutter for cross-platform development."
+  url: "https://dart.dev/"
 
 - name: Scala Development
   logo: "/images/sections/skills/scala.png"
-  summary: "Language enthusiast, I have already used it in a refactoring of a geographic metrics control system, the Language Actors system provided us with scaling in the system's responses."
+  summary: "Used in production at M2M Solutions for a real-time geographic metrics processing system with Akka actors. Language enthusiast."
   url: "https://www.scala-lang.org/"
+
+- name: Spring Framework
+  logo: "/images/sections/skills/spring.png"
+  summary: "Extensive experience with Spring ecosystem (Boot, Data, Security) for building enterprise applications. Used in professional and personal projects."
+  url: "https://spring.io/"
+
+- name: Hibernate / JPA
+  logo: "/images/sections/skills/hibernate.jpg"
+  summary: "Deep knowledge since the XML-based versions. Used extensively in professional projects for data persistence and ORM mapping."
+  url: "https://hibernate.org/"
+
+- name: Software Testing & Test Smells
+  logo: "/images/sections/skills/testing.svg"
+  summary: "Core research area. Creator of JNose (Java) and DNose (Dart) Test Smell detectors. Co-author of AriesLinter and RAIDE. Researching LLM-generated test quality and automated test refactoring."
+  url: "https://arieslab.github.io/"
+
+- name: Docker
+  logo: "/images/sections/skills/docker.svg"
+  summary: "Experienced with containerization for development and deployment of applications. Used in personal and academic projects."
+  url: "https://www.docker.com/"
+
+- name: PostgreSQL
+  logo: "/images/sections/skills/postgresql.svg"
+  summary: "Primary database for professional and research projects. Experienced with schema design, queries, and performance optimization."
+  url: "https://www.postgresql.org/"
 
 - name: Linux
   logo: "/images/sections/skills/linux.png"
-  summary: "I've been using linux for over 10 years as my working system, I'm not a Linux administrator, but an advanced user, I've been using Archlinux as my main distribution for 2 years now."
-  url: "https://www.scala-lang.org/"
+  summary: "10+ years as daily driver. Archlinux, NixOS, and Ubuntu user. Advanced user with experience in shell scripting, system administration, and development environments."
+  url: "https://archlinux.org/"
 
 - name: GIT
   logo: "/images/sections/skills/git.png"
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  summary: "Experienced with git-based development. Daily use of GitHub and GitLab for version control, CI/CD, and open-source collaboration."
+  url: "https://git-scm.com/"
