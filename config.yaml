@@ -68,7 +68,7 @@ sitemap:
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background.jpg
+  background: /images/site/wallpaper_novo_palmas.png
   # Background image of the landing page for dark theme
   #darkBackground: /images/site/background.jpg
 
@@ -97,7 +97,7 @@ params:
       services:
         light: true
         dark: true
-        default: system
+        default: light
 
     # Enable and configure portfolio
     portfolio:
