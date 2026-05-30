@@ -68,22 +68,31 @@ resourceLinks:
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
 - type: soft-skill-indicator
-  name: Leadership
+  name: Ensino
+  percentage: 90
+  color: green
+
+- type: soft-skill-indicator
+  name: Pesquisa
   percentage: 85
+  color: purple
+
+- type: soft-skill-indicator
+  name: Resolução de Problemas
+  percentage: 90
   color: blue
 
 - type: soft-skill-indicator
-  name: Team Work
+  name: Trabalho em Equipe
   percentage: 90
   color: yellow
 
 - type: soft-skill-indicator
-  name: Hard Working
+  name: Adaptabilidade
   percentage: 85
   color: orange
 
-# you can also provide color code instead of the color name
-# - type: soft-skill-indicator
-#   name: Example 1
-#   percentage: 75
-#   color: "#00adb5"
+- type: soft-skill-indicator
+  name: Código Aberto
+  percentage: 80
+  color: "#e95420"
