@@ -13,10 +13,12 @@
 {{ partial "helpers/style-bundle.html" . }}
 
 <!--================= fab-icon =========================-->
-<link rel="icon" type="image/png" sizes="32x32" href="/images/site/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/images/site/favicon-16x16.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/images/site/apple-touch-icon.png">
-<link rel="icon" type="image/x-icon" href="/images/site/favicon.ico">
+{{ $favicon32 := resources.Get "images/site/favicon-32x32.png" }}
+{{ $favicon16 := resources.Get "images/site/favicon-16x16.png" }}
+{{ $faviconIco := resources.Get "images/site/favicon.ico" }}
+<link rel="icon" type="image/png" sizes="32x32" href="{{ $favicon32.RelPermalink }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ $favicon16.RelPermalink }}">
+<link rel="icon" type="image/x-icon" href="{{ $faviconIco.RelPermalink }}">
 
 {{ with .OutputFormats.Get "rss" -}}
   {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
