@@ -1,0 +1,23 @@
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<!--================= canonical URL =========================-->
+{{/* Use relcanonical from front matter if set, otherwise use the page's permalink */}}
+{{ with .Params.relcanonical }}
+<link rel="canonical" href="{{ . | relLangURL }}" />
+{{ else }}
+<link rel="canonical" href="{{ .Permalink }}" />
+{{ end }}
+
+{{ partial "helpers/style-bundle.html" . }}
+
+<!--================= fab-icon =========================-->
+<link rel="icon" type="image/png" sizes="32x32" href="/images/site/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/site/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/site/apple-touch-icon.png">
+<link rel="icon" type="image/x-icon" href="/images/site/favicon.ico">
+
+{{ with .OutputFormats.Get "rss" -}}
+  {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
+{{ end }}
