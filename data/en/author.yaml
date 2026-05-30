@@ -10,6 +10,19 @@ contactInfo:
   #phone: "+55630000000000"
   github: tassiovirginio
   linkedin: tassiovirginio
+  researchgate: Tassio_Virginio
+  lattes:
+    url: "http://lattes.cnpq.br/0517470966104640"
+    icon: "user"
+    text: "Lattes"
+  stackoverflow:
+    url: "https://stackoverflow.com/users/2021511/tassiovirginio"
+    icon: "stack-overflow"
+    text: "Stack Overflow"
+  mastodon:
+    url: "https://sciences.social/@tassiovirginio"
+    icon: "mastodon"
+    text: "Mastodon"
 
 # some summary about what you do
 summary:
