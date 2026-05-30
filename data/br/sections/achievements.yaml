@@ -31,6 +31,21 @@ achievements:
 - title: Specialist in Agile Software Development
   image: /images/sections/achievements/defesa_uni7.jpg
   summary: Banking Defense in Agile Software Development Specialization.
+- title: CBSOFT 2025
+  image: /images/sections/achievements/cbsoft_2025_recife.jpeg
+  summary: CBSOFT 2025 em Recife.
+- title: ICSE 2026
+  image: /images/sections/achievements/ufba_time_icse_2026.jpg
+  summary: Time da UFBA no ICSE 2026.
+- title: Pôster ICSE 2026
+  image: /images/sections/achievements/poster_isce_2026.jpeg
+  summary: Pôster apresentado no ICSE 2026.
+- title: Alunos do Terceirão do Técnico de Informática - IFTO
+  image: /images/sections/achievements/meus_alunos_tec_informática.jpg
+  summary: Alunos do Terceirão do Técnico de Informática - IFTO.
+- title: Prêmio Melhor Aplicativo - Doutorado UFBA
+  image: /images/sections/achievements/premio_melhor_aplicativo_doutorado_UFBA_computacao.jpeg
+  summary: Prêmio de Melhor Aplicativo na Computação da UFBA.
 # - title: Graduation
 #   image: /images/sections/achievements/graduation-cap.jpg
 #   summary: Received Bachelor of Science (B.Sc.) in Computer Science from FACAPE University.
