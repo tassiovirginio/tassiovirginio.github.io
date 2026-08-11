@@ -17,6 +17,8 @@ degrees:
     name: Federal University of Bahia - UFBA
     url: "http://wiki.dcc.ufba.br/PGComp/"
   publications: #(optional)
+  - title: "More than one million test smells: how are Dart projects and their sentiments? - 2026 - A4 - JOURNAL OF SOFTWARE ENGINEERING RESEARCH AND DEVELOPMENT"
+    url: "https://doi.org/10.5753/jserd.2026.7537"
   - title: "DNose: Dart Test Smell Detector. Brazilian Symposium on Software Engineering, 2025. A3."
     url: "https://sol.sbc.org.br/index.php/sbes/article/view/37087"
   - title: "On the prevalence of test smells in mobile development. Brazilian Symposium on Systematic and Automated Software Testing, 2025. B1."
